@@ -152,3 +152,122 @@ In interactive mode, the last printed expression is assigned to the variable _. 
 This variable should be treated as read-only by the user. Don't explicitly assign a value to it.
 
 In addition to int and float, Python supports other types of numbers , such as **Decimal** and **Fraction**
+
+### 3.1.2 Strings
+Besider numbers, Python can also manipulate strings, which can be expressed in several ways.
+
+Can be enclosed two ways with the same result:
+* 'random sentence surrounded by single quotes'
+* "random sentence surrounded by double quotes"
+
+``` python
+>>> 'spam eggs' # single quotes
+'spam eggs'
+>>> 'doesn\'t' # use \' to escape the single quote...
+"doesn't"
+>>> "doesn't" # ...or use double quotes instead
+"doesn't"
+```
+
+The **print()** function produces a more readable output, by omitting the enclosign quotes and by printing escaped and special characters:
+
+``` python
+>>> '"Isn\'t," they said.'
+'"Isn\'t," they said.'
+>>> print('"Isn\'t," they said.')
+"Isn't," they said.
+>>> s = 'First line.\nSecond line.' # \n means newLine
+>>> s # without print(), \n is included in the output
+'First line. \nSecond line.'
+>>> print(s) # with print(), \n produces a new line
+First line.
+Second line.
+```
+
+If you don't want charactes prefaced by \ to be interpreted as special characters, you can use *raw strings* by adding an **r** before the first quote:
+
+``` python
+>>> print('C:\some\name') # here \n means newLine!
+C:\some
+ame
+```
+``` python
+>>> print(r'C:\some\name') # note the r before the quote
+C:\some\name
+```
+
+String literals can span multiple lines by using triple-quotes: """...""" or '''...'''.
+
+End of lines are automatically included in the string, but it's possible to prevent this by adding a **\** at the end of the line. The following example:
+
+```python
+print("""\
+Usage: thingy [OPTIONS]
+        -h              Display this usage message
+        -H hostname     Hostname to connect to
+""")
+```
+produces the following output(note that the initial newline is not included):
+
+```python
+Usage: thingy [OPTIONS]
+        -h              Display this usage message
+        -H hostname     Hostname to connect to
+```
+
+Strings can be concatenated(glued together) with the **+** operator, and repeated with __*__:
+
+```python
+>>> # 3 times 'un', followed by 'ium'
+>>> 3 * 'un' + 'ium'
+'unununium'
+```
+
+Two or more string literals (i.e. the ones enclosed between quotes) next to each other are automatically cncatenated.
+
+```python
+>>> 'Py' 'thon'
+'Python'
+```
+
+This feature is partucularly useful when you want to break long strings:
+
+```python
+>>> text = ('Put several strings within parentheses '
+...         'to have them joined together.')
+>>> text
+'Put several strings within parentheses to have them joined together.'
+```
+
+This only works with two literals though, not with variables or expressions:
+
+```python
+>>> prefix = 'Py'
+>>> prefix 'thon' # can't concatenate a variable and a string literal
+    File "<stdin>", line 1
+    prefix 'thon'
+                ^
+SyntaxError: invalid syntax
+>>> ('un' * 3) 'ium'
+    File "<stdin>", line 1
+        ('un' * 3) 'ium'
+                       ^
+SyntaxError: invalid syntax
+```
+
+If you want to concatenate variables or a variable and a literal, use **+**:
+
+```python
+>>> prefix + 'thon'
+'Python'
+```
+
+Strings can be indexed(subscripted), with the first character having index 0. There is no separate character type; a character is simply a string of size one:
+
+```python
+>>> word = 'Python'
+>>> word[0] # character in position 0
+'P'
+>>> word[5] # character in position 5
+'n'
+```
