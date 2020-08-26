@@ -455,3 +455,42 @@ It is possible to nest lists (create lists containing other lists), for example:
 >>> x[0][1]
 'b'
 ```
+
+## 3.2. First Steps Towards Programming
+Of course, we can use Python for more complicated tasks than adding two and two together. For instance, we can write an initial sub-sequence of the Fibonacci seris as follows:
+
+```python
+>>> # Fibonacci seris:
+... # the sum of two elements defines the next
+... a, b = 0, 1
+>>> while a < 10:
+...     print(a)
+...     a, b = b, a+b
+...
+0
+1
+1
+2
+3
+5
+8
+```
+
+Another Example:
+
+```python
+>>> i = 256*256
+>>> print('The value of i is', i)
+The value of i is 65536
+```
+
+Third Example:
+
+```python
+>>> a, b = 0, 1
+>>> while a < 1000:
+...     print(a, end=',')
+...     a, b = b, a+b
+...
+0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,
+```
