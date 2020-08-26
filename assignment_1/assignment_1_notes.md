@@ -271,3 +271,13 @@ Strings can be indexed(subscripted), with the first character having index 0. Th
 >>> word[5] # character in position 5
 'n'
 ```
+Indices may also be negative numbers, to start counting from the right:
+
+```python
+>>> word[-1] # Last character
+'n'
+>>> word[-2] # second-Last character
+'o'
+>>> word[-6]
+'P'
+```
