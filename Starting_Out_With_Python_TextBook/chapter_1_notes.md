@@ -20,5 +20,34 @@ A *programmer*, or *software developer*, is a person with the training and skill
 
 ## 1.2 Hardware and Software
 
-> ## Concept:
+> ### Concept:
 > The physical devices of which a computer is made are referred to as the computer's hardware. The programs that run on a computer are referred to as software.
+
+> ### Hardware
+> The term *hardware* refers to all of the physical devices, or *components*, of which a computer is made. A computer is not one single device, but a system of devices that all work together. Like the different instruments in a symphony orchestra, each device in a computer plays its own part.
+
+> ### The CPU
+> When a computer is performing the tasks that a program tells it to do, we say that the computer is *running* or *executing* the program. The *central processing unit*, or **CPU**, is the part of a computer that actually runs programs. The **CPU** is the most important component in a computer because without it, the computer could not run software.
+
+> ### Main Memory
+> This is where the computer stores a program while the program is running, as well as the data that the program is working with. Kind of like the work area of the computer.
+> * Main memory is commonly know as *random-access memory*, or **RAM**.
+> * It is called this because the **CPU** is able to quickly access data stored at any random location in **RAM**
+> * **RAM** is usually a *volatile* type of memory that is used only for temporary storage while a program is running.
+> * When the computer is turned off, the contents of **RAM** are erased.
+
+> ### Secondary Storage Devices
+> *Secondary storage* is a type of memory that can hold data for long periods of time, even when there is no power to the computer. Programs are normally stored in secondary memory and loaded into main memory as needed.
+> * Data can be stored on a traditional disk drive or a *Solid-state drives*, which store data in solid-state memory.
+> * External Storage devices can be used to create backup copies of important data or to move data to another computer.
+
+> ### Input Devices
+> Input is any data the computer collects from people and from other devices. The component that collects the data and sends it to the computer is called an *input device*.
+> * Common input devices are the keyboard, mouse, touchscreen, scanner, microphone, and digital camera.
+> * Disk drives and optical drives can also be considered input devices, because programs and data are retrieved from them and loaded into the computer's memory.
+
+> ### Output Devices
+> *Output* is any data the computer produces for people or for other devices. It might be a sales report, a list of names, or a graphic image.
+> * The data is sent to an output device, which formats and presents it.
+> * Common output devices are video display and printers.
+> * Disk drives can also be considered output devices because the system sends data to them in order to be saved.
