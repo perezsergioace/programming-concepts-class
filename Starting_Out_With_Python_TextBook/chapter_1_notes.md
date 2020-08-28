@@ -63,4 +63,5 @@ If a computer is to function, software is not optional. Everything a computer do
 
 ### **System Software**
 The programs that control and manage the basic operations of a computer are generally referred to as *system software*. System software typically includes the following types of programs:
-> #### **Operating Systems** : An *operating system* is the most fundamental set of programs on a computer. The operating system controls the internal operations of the computer's hardware, manages all of the devices connected to the computer, allows data to be saved to and retrieved from storage devices, and allows other program to run on the computer. 
+> #### **Operating Systems**: 
+> An *operating system* is the most fundamental set of programs on a computer. The operating system controls the internal operations of the computer's hardware, manages all of the devices connected to the computer, allows data to be saved to and retrieved from storage devices, and allows other program to run on the computer. 
