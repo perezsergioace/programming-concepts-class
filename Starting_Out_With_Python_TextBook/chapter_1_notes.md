@@ -114,4 +114,13 @@ The position of each digit in a binary number has a value assigned to it. Starti
 
 To determine the value of a binary number, you simply add up the position values of all the 1s. For example, in the binary number 01011101, the position values of the 1s are 1, 4, 8, 16, 64. The sum of all of these position values is 93. So, the value of the binary number 01011101 is 93.
 
+When all of the bits in a byte are set to 0 (turned off), then the value of the byte is 0. When all of the bits in a byte are set to 1 (turned on), then they byte holds the largest value that can be stored in it.
+
+The largest value that can be stored in a byte is 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255. This limit exists because there are only eight bits in a byte.
+
+**What if you need to store a number larger than 255?** The answer is simple: use more than one byte. The maximum value that can be stored in two bytes is 65,535. Example below.
+
+| 32768 | 16384 | 8192 | 4096 | 2048 | 1024 | 512 | 128 | 642 | 32 | 16 | 8 | 4 | 2 | 1 |
+| ----- | ----- | ---- | ---- | ---- | ---- | --- | --- | --- | -- | -- | - | - | - | - |
+
 <!-- </details> -->
