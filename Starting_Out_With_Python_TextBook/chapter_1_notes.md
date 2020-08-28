@@ -68,4 +68,4 @@ The programs that control and manage the basic operations of a computer are gene
     An *operating system* is the most fundamental set of programs on a computer. The operating system controls the internal operations of the computer's hardware, manages all of the devices connected to the computer, allows data to be saved to and retrieved from storage devices, and allows other program to run on the computer. 
 
 * #### **Utility Programs**:
-   A *utility program performs a specialized task that enhances the computer's operation or safeguards data. Example of utility programs are virus scanners, file compressions program, and data backup programs. 
+   A *utility program* performs a specialized task that enhances the computer's operation or safeguards data. Example of utility programs are virus scanners, file compressions program, and data backup programs. 
