@@ -8,7 +8,7 @@
 * 1.4 How a Program Works
 * 1.5 Using Python
 
-## 1.1 Introduction
+## **1.1 Introduction**
 
 Computers can perform variety of tasks because they can be programmed. Computers are not designed to do just one job, but to do any job that their programs tell them to do.
 
@@ -18,7 +18,7 @@ Programs are commonly referred to as *software*. Software is essential to a comp
 
 A *programmer*, or *software developer*, is a person with the training and skills necessary to design, create, and test computer programs.
 
-## 1.2 Hardware and Software
+## **1.2 Hardware and Software**
 
 ### **Concept:**
 The physical devices of which a computer is made are referred to as the computer's hardware. The programs that run on a computer are referred to as software.
