@@ -69,3 +69,6 @@ The programs that control and manage the basic operations of a computer are gene
 
 * #### **Utility Programs**:
    A *utility program* performs a specialized task that enhances the computer's operation or safeguards data. Example of utility programs are virus scanners, file compressions program, and data backup programs. 
+
+* #### **Software Development Tools**:
+    *Software development tools* are the programs that programmers use to create, modify, and test software. Assemblers, compilers, and interpreters are examples of programs that fall into this category.
