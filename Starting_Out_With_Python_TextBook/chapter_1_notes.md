@@ -11,7 +11,9 @@
 ## **1.1 Introduction**
 <details>
 <summary>Click to see notes</summary>
+
 <br>
+
 Computers can perform variety of tasks because they can be programmed. Computers are not designed to do just one job, but to do any job that their programs tell them to do.
 
 A *program* is a set of instructions that a computer follows to perform a task.
@@ -22,6 +24,10 @@ A *programmer*, or *software developer*, is a person with the training and skill
 </details>
 
 ## **1.2 Hardware and Software**
+<details>
+<summary>Click to see notes</summary>
+
+<br>
 
 ### **Concept:**
 The physical devices of which a computer is made are referred to as the computer's hardware. The programs that run on a computer are referred to as software.
@@ -78,8 +84,13 @@ The programs that control and manage the basic operations of a computer are gene
 
 ### **Application Software**
 Programmers that make a computer useful for everyday tasks are know as application software. These are the programs that people normally spend most of their time running on their computers.
+</details>
 
 ## **1.3 How Computers Store Data**
+<details>
+<summary>Click to see notes</summary>
+
+<br>
 
 ### **Concept:**
 All data that is stored in a computer is converted to sequences of 0s and 1s.
