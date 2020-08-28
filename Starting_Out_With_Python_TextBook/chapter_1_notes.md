@@ -10,6 +10,7 @@
 
 ## **1.1 Introduction**
 <details>
+<summary>Click to see notes</summary>
 <br>
 Computers can perform variety of tasks because they can be programmed. Computers are not designed to do just one job, but to do any job that their programs tell them to do.
 
