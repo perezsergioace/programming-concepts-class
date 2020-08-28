@@ -120,8 +120,8 @@ The largest value that can be stored in a byte is 1 + 2 + 4 + 8 + 16 + 32 + 64 +
 
 **What if you need to store a number larger than 255?** The answer is simple: use more than one byte. The maximum value that can be stored in two bytes is 65,535. Example below.
 
-| 32768 | 16384 | 8192 | 4096 | 2048 | 1024 | 512 | 128 | 642 | 32 | 16 | 8 | 4 | 2 | 1 |
-| ----- | ----- | ---- | ---- | ---- | ---- | --- | --- | --- | -- | -- | - | - | - | - |
-|   1   |   1   |   1  |  1   |  1   |  1   |  1  |  1  |  1  | 1  | 1  | 1 | 1 | 1 | 1 |
+| 32768 | 16384 | 8192 | 4096 | 2048 | 1024 | 512 | 128 | 642 |  32   |  16   | 8 | 4 | 2 | 1 |
+| :---: | :---: | :--: | :--: | :--: | :--: | :-: | :-: | :-: | :---: | :---: | - | - | - | - |
+|   1   |   1   |   1  |  1   |  1   |  1   |  1  |  1  |  1  |   1   |   1   | 1 | 1 | 1 | 1 |
 
 <!-- </details> -->
