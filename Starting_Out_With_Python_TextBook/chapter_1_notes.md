@@ -95,3 +95,4 @@ Programmers that make a computer useful for everyday tasks are know as applicati
 ### **Concept:**
 All data that is stored in a computer is converted to sequences of 0s and 1s.
 
+</details>
