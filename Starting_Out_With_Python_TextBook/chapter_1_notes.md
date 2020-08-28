@@ -72,3 +72,5 @@ The programs that control and manage the basic operations of a computer are gene
 
 * #### **Software Development Tools**:
     *Software development tools* are the programs that programmers use to create, modify, and test software. Assemblers, compilers, and interpreters are examples of programs that fall into this category.
+
+### **Application Software**
