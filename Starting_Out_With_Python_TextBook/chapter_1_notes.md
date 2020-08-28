@@ -10,15 +10,17 @@
 
 ## **1.1 Introduction**
 <details>
-    <summary>Click to expand!</summary>
+<summary>Click to expand!</summary>
 
-    Computers can perform variety of tasks because they can be programmed. Computers are not designed to do just one job, but to do any job that their programs tell them to do.
+___
 
-    A *program* is a set of instructions that a computer follows to perform a task.
+Computers can perform variety of tasks because they can be programmed. Computers are not designed to do just one job, but to do any job that their programs tell them to do.
 
-    Programs are commonly referred to as *software*. Software is essential to a computer because it controls everything the computer does. All of the software that we use are created by individuals working as programmers or software developers.
+A *program* is a set of instructions that a computer follows to perform a task.
 
-    A *programmer*, or *software developer*, is a person with the training and skills necessary to design, create, and test computer programs.
+Programs are commonly referred to as *software*. Software is essential to a computer because it controls everything the computer does. All of the software that we use are created by individuals working as programmers or software developers.
+
+A *programmer*, or *software developer*, is a person with the training and skills necessary to design, create, and test computer programs.
 </details>
 
 ## **1.2 Hardware and Software**
