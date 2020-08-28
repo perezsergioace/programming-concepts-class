@@ -57,3 +57,10 @@ Input is any data the computer collects from people and from other devices. The 
 > * Common output devices are video display and printers.
 > 
 > * Disk drives can also be considered output devices because the system sends data to them in order to be saved.
+
+### **Software**
+If a computer is to function, software is not optional. Everything a computer does, from the time you turn the power switch on until you shut the system down, is under the control of software. There are two general categories of software: **system software** and **application software**. Most computer programs clearly fit into one of these two categories.
+
+### **System Software**
+The programs that control and manage the basic operations of a computer are generally referred to as *system software*. System software typically includes the following types of programs:
+> #### **Operating Systems** : An *operating system* is the most fundamental set of programs on a computer. The operating system controls the internal operations of the computer's hardware, manages all of the devices connected to the computer, allows data to be saved to and retrieved from storage devices, and allows other program to run on the computer. 
