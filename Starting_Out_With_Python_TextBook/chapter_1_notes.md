@@ -10,10 +10,6 @@
 
 ## **1.1 Introduction**
 <details>
-<summary>Click to expand!</summary>
-
-___
-
 Computers can perform variety of tasks because they can be programmed. Computers are not designed to do just one job, but to do any job that their programs tell them to do.
 
 A *program* is a set of instructions that a computer follows to perform a task.
