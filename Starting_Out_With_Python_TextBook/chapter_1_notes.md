@@ -8,8 +8,9 @@
 * 1.4 How a Program Works
 * 1.5 Using Python
 
-## **1.1 Introduction**
 ---
+## **1.1 Introduction**
+
 Computers can perform variety of tasks because they can be programmed. Computers are not designed to do just one job, but to do any job that their programs tell them to do.
 
 A *program* is a set of instructions that a computer follows to perform a task.
