@@ -87,12 +87,31 @@ Programmers that make a computer useful for everyday tasks are know as applicati
 </details>
 
 ## **1.3 How Computers Store Data**
-<details>
-<summary>Click to see notes</summary>
+<!-- <details> -->
+<!-- <summary>Click to see notes</summary> -->
 
-<br>
+<!-- <br> -->
 
 ### **Concept:**
 All data that is stored in a computer is converted to sequences of 0s and 1s.
 
-</details>
+A computer's memory is divided into tiny storage locations known as *bytes*. One byte is only enough memory to store a letter of the alphabet or a small number. In order to do anything meaningful, a computer has to have lots of bytes. Most computers today have millions, or even billions, of bytes of memory.
+
+Computer scientists usually think of bits as tiny switches that can be either on or off.
+
+In most computer systems, bits are tiny electrical components that can hold either a positive or a negative charge.
+
+Computer scientists think of a positive charge as a switch in the *on* position, and a negative charge as a switch in the *off* position.
+
+### **Storing Numbers**
+In computer systems, a bit that is turned off represents the number **0**, and a bit that is turned on represents the number **1**. This corresponds perfectly to the *binary numbering system*. In the binary numbering system, all numeric values are written as sequences of 0s and 1s.
+
+The position of each digit in a binary number has a value assigned to it. Starting with the rightmost digit and moving left. Starting with the rightmost digit and moving left, the position values are 1, 2, 4, 8, and so forth.
+
+[Article on Binary](https://www.japanistry.com/binary/)
+
+![](https://japanistry-yvxqriqk.netdna-ssl.com/wp-content/uploads/2017/09/Binary-v01.jpg?raw=true)
+
+To determine the value of a binary number, you simply add up the position values of all the 1s. For example, in the binary number 01011101, the position values of the 1s are 1, 4, 8, 16, 64. The sum of all of these position values is 93. So, the value of the binary number 01011101 is 93.
+
+<!-- </details> -->
