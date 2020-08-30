@@ -87,10 +87,10 @@ Programmers that make a computer useful for everyday tasks are know as applicati
 </details>
 
 ## **1.3 How Computers Store Data**
-<!-- <details> -->
-<!-- <summary>Click to see notes</summary> -->
+<details>
+<summary>Click to see notes</summary>
 
-<!-- <br> -->
+<br>
 
 ### **Concept:**
 All data that is stored in a computer is converted to sequences of 0s and 1s.
@@ -124,4 +124,14 @@ The largest value that can be stored in a byte is 1 + 2 + 4 + 8 + 16 + 32 + 64 +
 | :---: | :---: | :--: | :--: | :--: | :--: | :-: | :-: | :-: | :---: | :---: | - | - | - | - |
 |   1   |   1   |   1  |  1   |  1   |  1   |  1  |  1  |  1  |   1   |   1   | 1 | 1 | 1 | 1 |
 
-<!-- </details> -->
+### **Storing Characters**
+Any piece of data that is stored in a computer's memory must be stored as a binary number. That includes characters, such as letters and punctuation marks. When a character is stored in memory, it is first converted to a numeric code. The numeric code is then stored in memory as a binary number.
+
+### **Advanced Number Storage**
+Negative numbers and real numbers (such as 3.14159) cannot be represented using the simple binary numbering technique. 
+
+Computers are able to store negative numbers and real numbers in memory, but to do so they use encoding schemes along with the binary numbering system. Negative numbers are encoded using a technique know as *two's complement*, and real real numbers are encoded in *floating-point notation*.
+
+### **Other Types of Data**
+Computers are often referred to as digital devices. The term *digital* can be used to describe anything that uses binary numbers. *Digital data* is data that is stored in binary format, and a *digital device* is any device that works with binary data.
+</details>
