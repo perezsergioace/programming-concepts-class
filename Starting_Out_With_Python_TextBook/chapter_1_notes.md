@@ -140,3 +140,29 @@ Computers are often referred to as digital devices. The term *digital* can be us
 
 ### **Concept:**
 A computer's CPU can only understand instructions that are written in machine language. Because people find it very difficult to write entire programs in machine language, other programming languages have been invented.
+
+Sometimes the CPU is called the "computer's brain" and is described as being "smart". Although these are common metaphors, you should understand that the CPU is not a brain, and its is not smart. The CPU is an electronic device that is designed to do specific things. In particular, the CPU is designed to perform operations such as the following:
+
+> * Reading a piece of data from main memory
+> * Adding two numbers
+> * Subtracting one number from another number
+> * Multiplying two numbers
+> * Dividing one number by another number
+> * Moving a piece of data from one memory location to another
+> * Determining whether one value is equal to another value
+
+As seen from the list above, the CPU performs simple operations on pieces of data. The CPU does nothing on its own, however. It has to be told what to do, and that's the purpose of a program. A program is nothing more than a list of instructions that cause the CPU to perform operations. Each instruction in a program is a command that tells the CPU to perform a specific operation.
+
+Programs are usually stored on a secondary storage device such a disk drive. When you install a program on your computer, the program is typically copied to your computer's disk drive from a CD-ROM, or downloaded from a website.
+
+Although a program can be stored on a secondary storage device such as a disk drive, it has to be copied into main memory, or RAM, each time the CPU executes it.
+
+For example, suppose you have a word processing program on your computer's disk. To execute the program, you use the mouse to double-click the program's icon. This causes the program to be copied from the disk into main memory. Then, the computer's CPU executes the copy of the program that is in main memory.
+
+When a CPU executes the instructions in program, it is engaged in a process that is know as the *fetch-decode-execute cycle*. This cycle, which consists of three steps, is repeated for each instruction in the program. The steps are:
+
+> 1. **Fetch**. A program is a long sequence of machine language instructions. The first step of the cycle is to fetch, or read, the next instruction from memory into the CPU.
+> 2. **Decode**. A machine language instruction is a binary number that represents a command that tells the CPU to perform an operation. In this step, the CPU decodes the instruction that was just fetched from memory, to determine which operation should perform.
+> 3. **Execute**. The last step in the cycle is to execute, or perform, the operation.
+
+### **From Machine Language to Assembly Language**
