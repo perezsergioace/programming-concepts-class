@@ -178,3 +178,29 @@ Assembly language programs cannot be executed by the CPU, however. The CPU only 
 Assembly language still come with some difficulties. Assembly language is primarily a direct substitute for machine language, and like machine language, it requires that you know a lot about the CPU. Assembly language also requires that you write a large number of instructions for even the simples program. Because assembly language is so close in nature to machine language, it is referred to as a *low-level language*.
 
 A high-level language allows you to create powerful and complex programs without knowing how the CPU works and without writing large numbers of low-level instructions. In addition, most high-level languages use words that are easy to understand.
+
+### **Key Words, Operators, and Syntax: An Overview**
+Each high-level language has its own set of predefined words that the programmer must use to write a program. The words that make up a high-level programming language are known as *key words* or *reserved words*. Each key word has a specific meaning, and cannot be used for any other purpose.
+
+In addition to key words, programming languages have operators that perform various operations on data. For example, all programming languages have math operators that perform arithmetic. In Python, as well as most other languages, the + sign is an operator that adds two numbers.
+
+In addition to key words and operators, each language also has its own *syntax*, which is a set of rules that must be strictly followed when writing a program. The syntax rules dictate how key words, operators, and various punctuation characters must be used in a program.
+
+The individual instructions that you use to write a program in a high-level programming language are called *statements*. A programming statement can-consist of key words, operators, punctuation, and other allowable programming elements, arranged in the proper sequence to perform an operation.
+
+### **Compilers and Interpreters**
+Because the CPU understands only machine language instructions, programs that are written in a high-level language must be translated into machine language. Depending on the language in which a program has been written, the programmer will use either a compiler or an interpreter to make the translation.
+
+A *compiler* is a program that translates a high-level language program into a separate machine language program. The machine language program can then be executed any time it is needed.
+
+**Image example:**
+
+![](https://rh6stzxdcl1wf9gj1fkj14uc-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/Figure1a.jpg)
+
+The Python language uses an interpreter, which is a program that both translates and executes the instructions in a high-level language program. Because interpreters combine translation and execution, they typically do not create separate machine language programs.
+
+The statements that a programmer writes in a high-level language are called *source code*, or simply *code*. Typically, the programmer types a program's code into a text editor then saves the code in a file on the computer's disk. Next, the programmer uses a compiler to translate the code into a machine language program, or an interpreter to translate and execute the code.
+
+If the code contains a syntax error, however, it cannot be translated. A *syntax error* is a mistake such as a misspelled key word, a missing punctuation character, or the incorrect use of an operator. When this happens, the compiler or interpreter displays an error message indicating that the program contains a syntax error. The programmer corrects the error then attempts once again to translate the program.
+
+### **1.5 Using Python**
