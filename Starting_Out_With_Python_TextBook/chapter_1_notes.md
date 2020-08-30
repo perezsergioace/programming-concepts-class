@@ -135,3 +135,8 @@ Computers are able to store negative numbers and real numbers in memory, but to 
 ### **Other Types of Data**
 Computers are often referred to as digital devices. The term *digital* can be used to describe anything that uses binary numbers. *Digital data* is data that is stored in binary format, and a *digital device* is any device that works with binary data.
 </details>
+
+## **How a Program Works**
+
+### **Concept:**
+A computer's CPU can only understand instructions that are written in machine language. Because people find it very difficult to write entire programs in machine language, other programming languages have been invented.
