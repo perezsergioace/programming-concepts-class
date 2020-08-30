@@ -203,4 +203,37 @@ The statements that a programmer writes in a high-level language are called *sou
 
 If the code contains a syntax error, however, it cannot be translated. A *syntax error* is a mistake such as a misspelled key word, a missing punctuation character, or the incorrect use of an operator. When this happens, the compiler or interpreter displays an error message indicating that the program contains a syntax error. The programmer corrects the error then attempts once again to translate the program.
 
-### **1.5 Using Python**
+## **1.5 Using Python**
+
+### **Concepts:**
+The Python interpreter can run Python programs that are saved in files or interactively execute Python statements that are typed at the keyboard. Python comes with a program name IDLE that simplifies the process of writing, executing, and testing programs.
+
+### **The Python Interpreter**
+The *Python interpreter* is a program that can read Python programming statements and execute them. You can use the interpreter in two modes: interactive mode and script mode.
+
+In *interactive mode*, the interpreter waits for you to type Python statements on the keyboard. Once you type a statement, the interpreter executes it and then waits for you to type another statement.
+
+In *script mode*, the interpreter reads the contents of a file that contains Python statements. Such a file is know as a *Python program* or a *Python script*. The interpreter executes each statement in the Python program as it reads it.
+
+### **Interactive Mode**
+When the Python interpreter starts in interactive mode, you will see something like the following displayed in a console window:
+
+```python
+Python 3.5.1 (v3.5.1:37a07cee5969, Dec 6 2015, 01:38:48)
+[MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license"
+for more information.
+>>>
+```
+
+To quit the Python interpreter in interactive mode on a Windows computer, press Ctrl-Z (pressing both keys together) followed by Enter.
+
+### **Writing Python Programs and Running Them in Script Mode**
+Although interactive mode is useful for testing code, the statements that you enter in interactive mode are not saved as a program. They are simply executed and their results displayed on the screen. If you want to save a set of Python statements as a program, you save those statements in a file. Then, to execute the program, you use the Python interpreter in script mode. To write the program you would use a simple text editor like Notepad to create a file with Python syntax code. 
+
+When you save a Python program, you give it a name that ends with the **.py** extension, which identifies it as a Python program.
+
+### **The IDLE Programming Environment**
+The *integrated development environment* is a single program that gives you all the tools you need to write, execute, and test a program.
+
+IDLE also has a built-in text editor with features specifically designed to help you write Python programs. For example, the IDLE editor "colorizes" code so key words and other parts of a program are displayed in their own distinct colors. This helps make programs easier to read. In IDLE, you can write programs, save them to disk, and execute them.
