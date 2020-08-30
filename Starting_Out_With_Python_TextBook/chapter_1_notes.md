@@ -136,7 +136,7 @@ Computers are able to store negative numbers and real numbers in memory, but to 
 Computers are often referred to as digital devices. The term *digital* can be used to describe anything that uses binary numbers. *Digital data* is data that is stored in binary format, and a *digital device* is any device that works with binary data.
 </details>
 
-## **How a Program Works**
+## **1.4 How a Program Works**
 
 ### **Concept:**
 A computer's CPU can only understand instructions that are written in machine language. Because people find it very difficult to write entire programs in machine language, other programming languages have been invented.
@@ -166,3 +166,15 @@ When a CPU executes the instructions in program, it is engaged in a process that
 > 3. **Execute**. The last step in the cycle is to execute, or perform, the operation.
 
 ### **From Machine Language to Assembly Language**
+Computers can only execute programs that are written in machine language. A program can have thousands or even millions of binary instructions, and writing such a program would be very tedious and time consuming. Programming in a machine language would also be very difficult, because putting a 0 or a 1 in the wrong place will cause an error.
+
+Although a computer's CPU only understands machine language, it is impractical for people to write programs in machine language. For this reason, *assembly language* was created in the early day of computing as an alternative to machine language. Instead of using binary numbers for instructions, assembly language uses short words that are know as *mnemonics*.
+
+For example, in assembly language, the mnemonic **add** typically means to add numbers, **mul** typically means to multiply numbers, and **mov** typically means to move a value to a location in memory. When a programmer uses assembly language to write a program, he or she can write short mnemonics instead of binary numbers.
+
+Assembly language programs cannot be executed by the CPU, however. The CPU only understands machine language, so a special program know as an *assembler* is used to translate an assembly language program to a machine language program. The machine language program that is created by the assembler can then be executed by the CPU.
+
+### **High-Level Languages**
+Assembly language still come with some difficulties. Assembly language is primarily a direct substitute for machine language, and like machine language, it requires that you know a lot about the CPU. Assembly language also requires that you write a large number of instructions for even the simples program. Because assembly language is so close in nature to machine language, it is referred to as a *low-level language*.
+
+A high-level language allows you to create powerful and complex programs without knowing how the CPU works and without writing large numbers of low-level instructions. In addition, most high-level languages use words that are easy to understand.
