@@ -35,7 +35,7 @@ The process of designing a program can be summarized in the following two steps:
 1. Understand the task that the program is to perform.
 2. Determine the steps that must be taken to perform the task.
 
-### **Understand the Task That the Program Is to Perform
+### **Understand the Task That the Program Is to Perform**
 It is essential that you understand what a program is supposed to do before you can determine the steps that the program will perform. Typically, a professional programmer gains this understanding by working directly with the customer.
 
 To get a sense of what a program is supposed to do, the programmer usually inter views the customer. During the interview, the customer will describe the task that the program should perform, and the programmer will ask questions to uncover as many details as possible about the task.
