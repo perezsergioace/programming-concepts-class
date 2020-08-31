@@ -53,3 +53,15 @@ An algorithm is created, which lists all of the logical steps that must be taken
 4. Display the result of the calculation that was performed in step 3.
 
 Of course, this algorithm isn't ready to be executed on the computer. The steps in this list have to be translated into code. Programmers commonly use two tools to help them accomplish this: pseudocode and flowcharts.
+
+### **Pseudocode**
+The word "pseudo" means fake, so *pseudocode* is fake code. It is an informal language that has no syntax rules and is not meant to be compiled or executed. Instead, programmers use pseudocode to create models, or "mock-ups," of programs. Because programmers don't have to worry about syntax errors while writing pseudocode, they can focus all of their attention on the program's design. Once a pseudocode can be translated directly to actual code.
+
+Here is an example of how you might write pseudocode for the pay calculating program that was discussed earlier:
+
+*Input the hours worked*
+*Input the hourly pay rate*
+*Calculate gross pay as hours worked multiplied by pay rate*
+*Display the gross pay*
+
+Each statement in the pseudocode represents an operation that can be performed in Python. For example, Python can read input that is typed on the keyboard, perform mathematical calculations, and display messages on the screen.
