@@ -34,3 +34,22 @@ The process of designing a program can be summarized in the following two steps:
 
 1. Understand the task that the program is to perform.
 2. Determine the steps that must be taken to perform the task.
+
+### **Understand the Task That the Program Is to Perform
+It is essential that you understand what a program is supposed to do before you can determine the steps that the program will perform. Typically, a professional programmer gains this understanding by working directly with the customer.
+
+To get a sense of what a program is supposed to do, the programmer usually inter views the customer. During the interview, the customer will describe the task that the program should perform, and the programmer will ask questions to uncover as many details as possible about the task.
+
+The programmer studies the information that was gathered from the customer during the interviews and creates a list of different software requirements. A *software requirement* is simply a single task that the program must perform in order to satisfy the customer. Once the customer agrees that the list of requirements is complete, the programmer can move to the next phase.
+
+### **Determine the Steps That Must Be Taken to Perform the Task**
+Once you under stand the task that the program will perform, you begin by breaking down the task into a series of steps that another person can follow.
+
+An algorithm is created, which lists all of the logical steps that must be taken. For example, suppose you have been asked to write a program to calculate and display the gross pay for an hourly paid employee. Here are the steps that you would take:
+
+1. Get the number of hours worked.
+2. Get the hourly pay rate.
+3. Multiply the number of hours worked by the hourly pay rate.
+4. Display the result of the calculation that was performed in step 3.
+
+Of course, this algorithm isn't ready to be executed on the computer. The steps in this list have to be translated into code. Programmers commonly use two tools to help them accomplish this: pseudocode and flowcharts.
