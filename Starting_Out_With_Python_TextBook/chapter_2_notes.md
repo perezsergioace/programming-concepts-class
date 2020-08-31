@@ -16,7 +16,7 @@
 ### Concept:
 Programs must be carefully designed they are written. During the design process, programmers use tools such as pseudocode and flowcharts to create models of programs.
 
-### The Program Development Cycle
+### **The Program Development Cycle**
 The process of creating a program that works correctly typically requires the five phases. The entire process is know as the *program development cycle*.
 
 Let's take a closer look at each stage in the cycle.
@@ -26,3 +26,11 @@ Let's take a closer look at each stage in the cycle.
 3. **Correct Syntax Errors**. If the program contains a syntax error, or even a simple mistake such as a misspelled key word, the compiler or interpreter will display an error message indicating what the error is. Once all of the syntax errors and simple typing mistakes have been corrected, the program can be compiled and translated into a machine language program.
 4. **Test the Program**. Once the code is in an executable form, it is then tested to determine whether any logic errors exist. A *logic error* is a  mistake that does not prevent the program from running, but cause it to produce incorrect results. (Mathematical mistakes are common cause of logic errors.)
 5. **Correct Logic Errors**. If the program produces incorrect results, the programmer *debugs* the code. This means that the programmer finds and corrects logic errors in the program. Sometimes during this process, the programmer discovers that the program's original design must be changed. In this event, the program development cycle starts over and continues until no errors can be found.
+
+### **More About the Design Process**
+The process of designing a program is arguably the most important part of the cycle. If your program is designed poorly, eventually you will find yourself doing a lot of work to fix the program.
+
+The process of designing a program can be summarized in the following two steps:
+
+1. Understand the task that the program is to perform.
+2. Determine the steps that must be taken to perform the task.
