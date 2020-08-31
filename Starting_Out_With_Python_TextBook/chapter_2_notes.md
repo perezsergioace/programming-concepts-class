@@ -65,3 +65,14 @@ Here is an example of how you might write pseudocode for the pay calculating pro
 *Display the gross pay*
 
 Each statement in the pseudocode represents an operation that can be performed in Python. For example, Python can read input that is typed on the keyboard, perform mathematical calculations, and display messages on the screen.
+
+### **Flowcharts**
+Flowcharting is another tool that programmers use to design programs. A *flowchart* is a diagram that graphically depicts the steps that take place in a program.
+
+Notice there are three types of symbols in the flowchart: ovals, parallelograms, and a rectangle. Each of these symbols represents a step in the program, as described here:
+
+* The ovals, which appear at the top and bottom of the flowchart, are called *terminal symbols*. The *Start* terminal symbol marks the program's starting point, and the *End* terminal symbol marks the program's ending point.
+* Parallelograms are used as *input symbols* and *output symbols*. They represent steps in which the program reads input or displays output.
+* Rectangles are used as *processing symbols*. They represent steps in which the program performs some process on data, such as a mathematical calculation.
+
+The symbols are connected by arrows that represent the "flow" of the program. To step through the symbols in the proper order, you begin at the *Start* terminal and follow the arrows until you reach the *End* terminal.
