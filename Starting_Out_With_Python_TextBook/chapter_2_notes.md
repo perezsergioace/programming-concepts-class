@@ -1,0 +1,28 @@
+# Chapter 2 Input, Processing, and Output
+
+### Topics
+* 2.1 Designing a Program
+* 2.2 Input, Processing, and Output
+* 2.3 Displaying Output with the **print** Function
+* 2.4 Comments
+* 2.5 Variables
+* 2.6 Reading Input from the Keyboard
+* 2.7 Performing Calculations
+* 2.8 More About Data Output
+* 2.9 Named Constants
+* 2.10 Introduction to Turtle Graphics
+
+## 2.1 Designing a Program
+### Concept:
+Programs must be carefully designed they are written. During the design process, programmers use tools such as pseudocode and flowcharts to create models of programs.
+
+### The Program Development Cycle
+The process of creating a program that works correctly typically requires the five phases. The entire process is know as the *program development cycle*.
+
+Let's take a closer look at each stage in the cycle.
+
+1. **Design the Program**. All the professional programmers will tell you that a program should be carefully designed before the code is actually written. They start by creating a design of the program.
+2. **Write the Code**. After designing the program, the programmer begins writing code in a high-level language such as Python.
+3. **Correct Syntax Errors**. If the program contains a syntax error, or even a simple mistake such as a misspelled key word, the compiler or interpreter will display an error message indicating what the error is. Once all of the syntax errors and simple typing mistakes have been corrected, the program can be compiled and translated into a machine language program.
+4. **Test the Program**. Once the code is in an executable form, it is then tested to determine whether any logic errors exist. A *logic error* is a  mistake that does not prevent the program from running, but cause it to produce incorrect results. (Mathematical mistakes are common cause of logic errors.)
+5. **Correct Logic Errors**. If the program produces incorrect results, the programmer *debugs* the code. This means that the programmer finds and corrects logic errors in the program. Sometimes during this process, the programmer discovers that the program's original design must be changed. In this event, the program development cycle starts over and continues until no errors can be found.
