@@ -296,7 +296,7 @@ Although you are allowed to make up your own names for variable you must follow 
 * You cannot use one of Python's key words as a variable name.
 * A variable name cannot contain spaces.
 * The first character must be one of the letters **a** through **z** or **A** through **Z**, the digits 0 through 9, or underscores.
-* Uppercase and lowercase characters are distinct. This means the variable name **ItemsOrdered** is not the same as **itemsordered**.
+* Uppercase and lowercase characters are distinct. This means the variable name **ItemsOrdered** is not the same as **#itemsordered**.
 
 In addition to following these rules, you should always choose names for your variables that give an indication of what they are used for.
 
@@ -354,3 +354,36 @@ When the **print** function executed, it displayed the values of the two argumen
 
 ### **Variable Reassignment**
 Variables are called "variable" because they can reference different values while a program is running. When you assign a value to a variable, the variable will reference that value until you assign it a different value.
+
+For example, look at the example below. The statement in line 3 creates a variable named **dollars** and assigns it the value 2.75. Then, the statement in line 8 assigns a different value, 99.95, to the **dollars** variable.
+
+> The dollars variable after line 3 executes.
+> 
+> dollars ----> 2.75
+>
+> The dollars variable after line 8 executes
+>
+> the old value is still here 2.75
+> 
+> dollars ----> 99.95
+
+The old value, 2.75, is still in the computer's memory, but it can no longer be used because it isn't referenced by a variable. When a value in memory is no longer referenced by a variable, the Python interpreter automatically removes it from memory through a process known as **garbage collection**.
+
+**variable_demo4.py**
+```python
+# this program demonstrates variable reassignment.
+# Assign a value to the dollars variable.
+dollars = 2.75
+print('I have', dollars, 'in my account.')
+
+# Reassign dollars so it references
+# a different value.
+dollars = 99.95
+print('But now I have', dollars, 'in my account!')
+```
+
+**Program Output**
+```python
+I have 2.75 in my account.
+But now I have 99.95 in my account!
+```
