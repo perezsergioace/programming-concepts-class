@@ -106,3 +106,107 @@ print('Hello world')
 Hello world
 >>>
 ```
+
+When programmers execute a function, they say that they are *calling* the function. When you call the *print* function, you type the word *print*, followed by a set of parentheses. Inside the parentheses, you type an *argument*, which is the data that you want displayed on the screen.
+
+Suppose your instructor tells you to write a program that display your name and address on the computer screen.
+
+Example:
+```python
+>>> print('Kate Austen')
+>>> print('123e Full Circle Drive')
+>>> print('Asheville, NC 28899')
+```
+
+Program Output:
+```python
+Kate Austen
+123 Full Circle Drive
+Asheville, NC 28899
+```
+
+It is important to understand that the statements in this program execute in the order that they appear, from the top of the program to the bottom. When you run this program, the first statement will execute, followed by the second statement, and followed by the third statement.
+
+### **Strings and String Literals**
+Programs almost always work with data of some type.
+
+Example:
+```python
+'Kate Austen'
+'123 Full Circle Drive'
+'Asheville, NC 28899'
+```
+
+These pieces of data are sequences of characters. In programming terms, a sequence of character that is used as data is called a *string*. When a string appears in the actual code of a program, it is called a *string literal*. In Python code, string literals must be enclosed in quote marks. The quote marks simply mark where the string data begins and ends.
+
+In Python, you can enclose string liters in a set of single-quote marks *(')* or set of double-quote marks *(")*. If you want a string literal to contain either a single-quote or an apostrophe as part of the string, you can enclose the string literal in double-quote marks. Likewise, you can use single-quote marks to enclose a string literal that contains double-quotes as part of the string.
+
+Python also allows you to enclose string literals in triple quotes (either **"""** or **'''**). Triple-quoted strings can contain both single quotes and double quotes as part of the string.
+
+**Example:**
+```python
+>>> print("""I'm reading "Hamlet" tonight.""")
+```
+
+This statement will print
+```python
+I'm reading "Hamlet" tonight.
+```
+
+Triple quotes can also be used to surround multiline strings, something for which single and double quotes cannot be used. Here is an example:
+```python
+print("""One
+Two
+Three""")
+```
+
+This statement will print:
+```python
+One
+Two
+Three
+```
+
+## **2.4 Comments**
+### **Concept:**
+Comments are notes of explanation that document lines or sections of a program. Comments are part of the program, but the Python interpreter ignores them. They are intended for people who may be reading the source code.
+
+Comments are short notes placed in different parts of a program, explaining how those parts of the program work. They are also ignored by the Python interpreter. Comments are intended for any person reading a program's code, not the computer.
+
+In Python, you begin a comment with the *#* character. When the Python interpreter sees a *#* character, it ignores everything from that character to the end of the line.
+
+Example:
+**Input**
+```python
+# this program displays a person's 
+# name and adress.
+>>> print('Kate Austen')
+>>> print('123 Full Circle Drive')
+>>> print('Asheville, NC 28899')
+```
+
+**Output**
+```python
+Kate Austen
+123 Full Circle Drive
+Asheville, NC 28899
+```
+
+Programmers commonly write end-line comments in their code. An *end-line comment* is a comment that appears at the end of a line of code. It usually explains the statement that appears in that line.
+
+Example:
+**Input**
+```python
+>>> print('Kate Austen') # Display the name.
+>>> print('123e Full Circle Drive') # Display the address.
+>>> print('Asheville, NC 28899') # Display the city, state, and ZIP
+```
+
+**Output**
+```python
+Kate Austen
+123 Full Circle Drive
+Asheville, NC 28899
+```
+
+It is crucial that you take the extra time to write comments. They can save you and others time in the future when you have to modify or debug the program. Large and complex programs can be almost impossible to read and understand if they are not properly commented.
