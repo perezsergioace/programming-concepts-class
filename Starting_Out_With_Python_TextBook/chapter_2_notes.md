@@ -298,3 +298,38 @@ Although you are allowed to make up your own names for variable you must follow 
 * The first character must be one of the letters **a** through **z** or **A** through **Z**, the digits 0 through 9, or underscores.
 * Uppercase and lowercase characters are distinct. This means the variable name **ItemsOrdered** is not the same as **itemsordered**.
 
+In addition to following these rules, you should always choose names for your variables that give an indication of what they are used for.
+
+Because a variable's name should reflect the variable's purpose, programmers often find themselves creating the names that are made of multiple words. For example, consider the following variable names:
+
+```python
+grosspay
+payrate
+hotdogssoldtoday
+```
+
+Unfortunately, these names are not easily read by the human eye because the words aren't separated. Because we can't have spaces in variable names, we need to find another way to separate the words in a multiword variable name and make it more readable to the human eye.
+
+One way to do this is to use the under score character to represent a space. For example, the following variable names are easier to read than those previously show:
+
+```python
+gross_pay
+pay_rate
+hot_dogs_sold_today
+```
+
+This style of naming variables is popular among Python programmers, and is the style we will use in this book. The are other popular styles, however, such as the *camelCase* naming convention. camelCase names are written in the following manner:
+
+* The variable name begins with lowercase letters.
+* The first character of the second and subsequent words is written in uppercase
+
+For example, the following variable names are written in camelCase:
+
+```javascript
+grossPay
+payRate
+hotDogsSoldToday
+```
+
+#### **Note:**
+This style of naming is called camelCase because the uppercase characters that appear in a name may suggest a camel's humps.
