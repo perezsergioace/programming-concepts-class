@@ -76,3 +76,33 @@ Notice there are three types of symbols in the flowchart: ovals, parallelograms,
 * Rectangles are used as *processing symbols*. They represent steps in which the program performs some process on data, such as a mathematical calculation.
 
 The symbols are connected by arrows that represent the "flow" of the program. To step through the symbols in the proper order, you begin at the *Start* terminal and follow the arrows until you reach the *End* terminal.
+
+## **2.2 Input, Processing, and Output**
+### **Concept**:
+Input is data that the program receives. When a program receives data, it usually processes it by performing some operation with it. The result of the operation is sent out of the program as output.
+
+Computer programs typically perform the following three-step process:
+
+1. Input is received.
+2. Some process is performed on the input.
+3. Output is produced.
+
+Input is any data that the program receives while it is running. One common form of input is data that is typed on the keyboard. Once input is received, some process, such as a mathematical calculation, is usually performed on it. The results of the process are then sent out of the program as output.
+
+## **2.3 Displaying Output with the *print* Function**
+### **Concept**:
+You use the *print* function to display output in a Python program.
+
+A *function* is a piece of prewritten code that performs an operation. Python has numerous built-in functions that perform various operations. The most fundamental built-in function is the *print* function, which displays output on the screen.
+
+Here is an example of a statement that executes the *print* function:
+
+```python
+print('Hello world')
+```
+
+```python
+>>> print('Hello world') # pressing enter
+Hello world
+>>>
+```
