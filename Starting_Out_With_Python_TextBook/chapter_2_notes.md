@@ -333,3 +333,24 @@ hotDogsSoldToday
 
 #### **Note:**
 This style of naming is called camelCase because the uppercase characters that appear in a name may suggest a camel's humps.
+
+### **Displaying Multiple Items with the *print* Function**
+Python allows us to display multiple items with one call the **print** function. A programmer simply has to separate the items with commas as shown in the example below.
+
+```python
+# This program demonstrates a variable.
+>>> room = 503
+>>> print('I am staying in room number', room)
+```
+
+In line 3, we passed two arguments to the **print** function. The first argument is the string literal 'I am staying in room number', and the second argument is the **room** variable.
+
+**Program Output**
+```python
+I am staying in room number 503
+```
+
+When the **print** function executed, it displayed the values of the two arguments in the order that we passed them to the function. Notice the **print** function automatically printed a space separating the two items. When multiple arguments are passed to the **print** function, they are automatically separated by a space when they are displayed on the screen.
+
+### **Variable Reassignment**
+Variables are called "variable" because they can reference different values while a program is running. When you assign a value to a variable, the variable will reference that value until you assign it a different value.
