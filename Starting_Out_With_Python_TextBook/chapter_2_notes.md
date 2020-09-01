@@ -387,3 +387,48 @@ print('But now I have', dollars, 'in my account!')
 I have 2.75 in my account.
 But now I have 99.95 in my account!
 ```
+
+### **Numeric Data Types and Literals**
+Because different types of numbers are stored and manipulated in different ways, Python uses *data types* to categorize values in memory. When an integer is stored in memory, it is classified as an **int**, and when a real number is stored in memory, it is classified as a **float**.
+
+A number that is written into a program's code is called a *numeric literal*. When the Python interpreter reads a numeric literal in a program's code, it determines its data type according to the following rules:
+
+* A numeric literal that is written as a whole number with no decimal point is considered an **int**. Examples are **7**, **124**, and **-9**.
+* A numeric literal that is written with a decimal point is considered a **float**. Examples are **1.5**, **3.14159**, and **5.0**.
+
+So, the following statement cause the number 503 to be stored in memory as an **int**:
+
+```python
+room = 503
+```
+
+And the following statement causes the number 2.75 to be stored in memory as a **float**.
+
+When you store an item in memory, it is important for you to be aware of the item's data type. As you will see, some operations behave differently depending on the type of data involved, and some operations can only be performed on values of a specific data type.
+
+You can use the built-in **type** function in interactive mode to determine the data type of a value. For example, look at the following session:
+
+```python
+>>> type(1) # Enter
+<class 'int'>
+>>>
+```
+In this example, the value 1 is passed as an argument to the **type** function. The message that is displayed on the next line, indicates that the value is an **int**. Here is another example:
+
+```python
+>>> type(1.0) # Enter
+<class 'float'>
+>>>
+```
+
+In this example, the value 1.0 is passed as an argument to the **type** function. The message that is displayed on the next line, **<class 'float'>, indicates that the value is a float.
+
+You cannot write currency symbols, spaces, or commas in numeric literals. For example, the following statement will cause an error:
+```python
+value = $4,567.99 # Error!
+```
+
+This statement must be written as:
+```python
+value = 4567.99 # Correct
+```
