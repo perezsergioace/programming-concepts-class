@@ -432,3 +432,21 @@ This statement must be written as:
 ```python
 value = 4567.99 # Correct
 ```
+
+### **Storing Strings with the *str* Data Type**
+Python also has a data type named **str**, which is used for storing strings in memory.
+
+**Example**:
+```python
+# Create variables to reference two strings.
+first_name = 'Kathryn'
+last_name = 'Marino'
+
+# Display the values referenced by the variables.
+print(first_name, last_name)
+```
+
+**Program Output**
+```python
+Kathryn Marino
+```
