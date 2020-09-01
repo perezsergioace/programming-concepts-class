@@ -210,3 +210,91 @@ Asheville, NC 28899
 ```
 
 It is crucial that you take the extra time to write comments. They can save you and others time in the future when you have to modify or debug the program. Large and complex programs can be almost impossible to read and understand if they are not properly commented.
+
+## **2.5 Variables**
+### **Concept**:
+A variable is a name that represents a value stored in the computer's memory.
+
+Programs usually store data in the computer's memory and perform operations on that data.
+
+Programs use variables to access and manipulate data that is stored in memory. A *variable* is a name that represents a value in the computer's memory.
+
+For example, a program that calculates the sales tax on a purchase might use the variable name **tax** to represent that value in memory. And a program that calculates the distance between two cities might use the variable name **distance** to represent that value in memory. When a variable represents a value in the computer's memory, we say that the variable *references the value.
+
+### **Creating Variables with Assignment Statements**
+You use an *assignment statement* to create a variable and make it reference a piece of data. Here is an example of an assignment statement:
+
+```python
+>>> age = 25
+```
+
+After this statement executes, a variable named **age** will be created, and it will reference the value 25. In the example below, think of the value 25 as being stored somewhere in the computer's memory. The arrow that points from **age** to the value **25** indicates that the name **age** references the value.
+
+> age ----> 25
+
+Assignment statements are written in the following general format:
+
+> variable = expression
+
+The equal sign (=) is known as the *assignment operator*. In the general format, **variable** is the name of a variable and **expression** is a value, or any piece of code that results in a value. After an assignment statement executes, the variable listed on the left side of the **=** operator will reference the value given on the right side of the **=** operator.
+
+Typing assignment statements in interactive mode:
+```python
+>>> name = Tom # Enter
+>>> age = 23
+```
+
+Next, you can use the **print** function to display the values referenced by the variables created above.
+```python
+>>> print(name)
+Tom
+>>> print(age)
+23
+```
+
+When you pass a variable as an argument to the **print** function, you do not enclose the variable name in quote marks. To demonstrate why, look at the following interactive session:
+```python
+>>> print('name')
+name
+>>> print(name)
+Tom
+```
+
+In an assignment statement, the variable that is receiving the assignment must appear on the left side of the **=** operator. As show in the following interactive session, an error occurs if the item on the left side of the **=** operator is not a variable:
+```python
+>>> 25 = age # Enter
+SyntaxError: can't assign to literal
+>>>
+```
+
+In the next sample program, create two variable: top_speed and distance:
+```python
+# Create two variables: top_speed and distance.
+top_speed = 160
+distance = 300
+
+# Display the values referenced by the variables.
+print('The top speed is')
+print(top_speed)
+print('The distance traveled is')
+print(distance)
+```
+**Output**
+```python
+The top speed is
+160
+The distance traveled is
+300
+```
+
+#### **Warning!**
+You cannot use a variable until you have assigned a value to it. An error will occur if you try to perform an operation on a variable, such as printing it, before it has been assigned a value.
+
+### **Variable Naming Rules**
+Although you are allowed to make up your own names for variable you must follow these rules:
+
+* You cannot use one of Python's key words as a variable name.
+* A variable name cannot contain spaces.
+* The first character must be one of the letters **a** through **z** or **A** through **Z**, the digits 0 through 9, or underscores.
+* Uppercase and lowercase characters are distinct. This means the variable name **ItemsOrdered** is not the same as **itemsordered**.
+
