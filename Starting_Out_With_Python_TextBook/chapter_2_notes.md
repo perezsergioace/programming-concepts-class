@@ -296,7 +296,7 @@ Although you are allowed to make up your own names for variable you must follow 
 * You cannot use one of Python's key words as a variable name.
 * A variable name cannot contain spaces.
 * The first character must be one of the letters **a** through **z** or **A** through **Z**, the digits 0 through 9, or underscores.
-* Uppercase and lowercase characters are distinct. This means the variable name **ItemsOrdered** is not the same as **#itemsordered**.
+* Uppercase and lowercase characters are distinct. This means the variable name **ItemsOrdered** is not the same as **itemsordered**.
 
 In addition to following these rules, you should always choose names for your variables that give an indication of what they are used for.
 
@@ -450,3 +450,71 @@ print(first_name, last_name)
 ```python
 Kathryn Marino
 ```
+
+### **Reassigning a Variable to Different Type**
+The Python interpreter keeps track of the variable names that you create and the pieces of data to which those variable names refer. Any time you need to retrieve one of those pieces of data, you simply use the variable name that refers to it.
+
+A variable in Python can refer to items of any type. After a variable has been assigned an item of one type, it can be reassigned an item of a different type.
+
+## **2.6 Reading Input from the Keyboard**
+### **Concept:**
+Programs commonly need to read input typed by the user on the keyboard. We will use the Python functions to do this.
+
+When a program reads data from the keyboard, usually it stores that data in a variable so it can be used later by the program.
+
+Python's built-in **input** function is used to read input from the keyboard. The **input** function reads a piece of data that has been entered at the keyboard and returns that piece of data, as a string, back to the program. You normally use the **input** function in an assignment statement that follows this general format:
+
+```python
+variable = input(prompt)
+```
+
+In the general format, **prompt** is a string that is displayed on the screen. The string's purpose is to instruct the user to enter a value. Here is an example of a statement that uses the **input** function to read data from the keyboard:
+
+```python
+name = input('What is your name?')
+```
+
+When this statement executes, the following things happen:
+
+* The string **'What is your name? '** is displayed on the screen.
+* The program pauses and waits for the user to type something on the keyboard and then to press the Enter key.
+* When the Enter key is pressed, the data that was typed is returned as a string and assigned to the **name** variable.
+
+**Example**:
+```python
+>>> name = input('What is your name? ')
+What is your name? # Holly # Enter
+>>> print(name) # Enter
+Holly
+```
+
+**string_input.py**
+```python
+# Get the user's first name.
+first_name = input('Enter your first name: ')
+
+# Get the user's last name.
+last_name = input('Enter your last name: ')
+
+# Print a greeting to the user.
+print('Hello', first_name, last_name)
+```
+
+**Program Output(with input shown in bold)
+```python
+Enter your first name: Vinny # Enter
+Enter your last name: Brown # Enter
+Hello Vinny Brown
+```
+
+Take a closer look in line 2 at the string we used as a prompt:
+```python
+'Enter your first name: '
+```
+
+Notice the last character in the string, inside the quote marks, is a space. The same is true for the following string, used as prompt in line 5:
+```python
+'Enter your last name: '
+```
+
+We put a space character at the end of each string because the **input** function does not automatically display a space after the prompt. When the user begins typing characters, they appear on the screen immediately after the prompt. Making the last character in the prompt a space visually separates the prompt from the user's input on the screen.
