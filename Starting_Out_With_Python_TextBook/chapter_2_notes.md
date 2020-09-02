@@ -518,3 +518,77 @@ Notice the last character in the string, inside the quote marks, is a space. The
 ```
 
 We put a space character at the end of each string because the **input** function does not automatically display a space after the prompt. When the user begins typing characters, they appear on the screen immediately after the prompt. Making the last character in the prompt a space visually separates the prompt from the user's input on the screen.
+
+### **Reading Numbers with the *input* function**
+The **input** function always returns the user's input as a string, even if the user enters numeric data. For example, you suppose you call the **input** function, type the number 72, and press the Enter key. The value that is returned from the **input** function is the string '72'. This can be a problem if you want to use the value in a math operation. Math operations can be performed only on numeric values,not strings.
+
+Fortunately, Python has built-in functions that you can use to convert a string to a numeric type.
+
+For example, suppose you are writing a payroll program and you want to get the number of hours that the user has worked. Look at the following code:
+
+```python
+string_value = input('How many hours did you work? ')
+hours = int(string_value)
+```
+
+The first statement gets the number of hours from the user and assigns that value as a string to the **string_value** variable. The second statement calls the **int()** function, passing string_value as an argument. The value referenced by **string_value** is converted to an **int** and assigned to the **hours** variable.
+
+This example illustrates how the **int()** functions works, but it is inefficient because it creates two variables: one to hold the string that is returned from the **input** function, and another to hold the integer that is returned from the **int()** function. The following code shows a better approach. This one statement does all the work that the previously show two statements do, and it creates only one variable:
+
+```python
+hours = int(input('How many hours did you work? '))
+```
+
+This one statement uses nested function calls. The value that is returned from the **input** function is passed as an argument to the **int()** function. This is how it works:
+
+* It calls the **input** function to get a value entered at the keyboard.
+* The value that is returned from the **input** function (a string) is passed as an argument to the **int()** function.
+* The **int** value that is returned from the **int()** function is assigned to the **hours** variable.
+
+After this statement executes, the **hours** variable is assigned the value entered at the keyboard, converted to an **int**
+
+**inpur.py Example**:
+```python
+# Get the user's name, age, and income.
+name = input('What is your name? ')
+age = int(input('What is your age? '))
+income = float(input('What is your income? '))
+
+# Display the data.
+print('Here is the data you entered:')
+print('Name:', name)
+print('Age:', age)
+print('Income:', income)
+```
+
+**Program Output**
+```python
+What is your name? Chris
+What is your age? 25
+What is your income? 75000.0
+Here is the data you entered:
+Name: Chris
+Age: 25
+Income: 75000.0
+```
+
+**Breakdown of Example Code**
+* Line 2 prompts the user to enter his or her name. The value that is entered is assigned, as a string, to the **name** variable.
+* Line 3 prompts the user to enter his or her age. The value that is entered is converted to an **int** and assigned to the **age** variable.
+* Line 4 prompts the user to enter his or her income. The value that is entered is converted to a **float** and assigned to the **income** variable.
+* Lines 7 through 10 display the values that the user entere.
+
+The **int()** and **float()** functions work only if the item that is being converted contains a valid numeric value. If the argument cannot be converted to the specified data type, an error know as an exception occurs. An *exception* is an unexpected error that occurs while a program is running, causing the program to halt if the error is not properly dealt with. For example, look at the following interactive mode session:
+
+```python
+>>> age = int(input('What is your age? '))
+What is your age? xyz
+Traceback (most recent call last):
+ File "<pyshell#81>", line 1, in <module>
+ age = int(input('What is your age? '))
+ValueError: invalid literal for int() with base 10: 'xyz'
+>>>
+```
+
+**Note**:
+In this section, we mentioned the user. The *user* is simply any hypothetical person that is using a program and providing input for it. The user is sometimes called the *end user*.
