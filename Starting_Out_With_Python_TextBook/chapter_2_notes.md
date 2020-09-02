@@ -592,3 +592,85 @@ ValueError: invalid literal for int() with base 10: 'xyz'
 
 **Note**:
 In this section, we mentioned the user. The *user* is simply any hypothetical person that is using a program and providing input for it. The user is sometimes called the *end user*.
+
+## **2.7 Performing Calculations**
+### **Concept:**
+Python has numerous operators that can be used to perform mathematical calculations.
+
+A programmer's tools for performing calculations are *math operators*.
+
+A *math expression* performs a calculation and gives a value.
+
+The following is an example of a simple math expression:
+```python
+12 + 2
+```
+
+The values on the right and left of the + operator are called *operands. These are values that the + operator adds together.
+
+Variables may also be used in a math expression. For example, suppose we have two variables name *hours* and *pay_rate*. The following math expression uses the * operator to multiply the value referenced by the *hours* variable by the value referenced by the *pay_rate* variable:
+```python
+hours * pay_rate
+```
+
+When we use a math expression to calculate a value, normally we want to save that value in memory so we can use it again in the program.
+
+### **Spotlight: Calculating a Percentage**
+If you are writing a program that works with a percentage, you have to make sure that the percentage's decimal point is in the correct location before doing any math with the percentage.
+
+Before you perform any calculations with such a percentage, you have to divide it by 100 to move its decimal point two places to the left.
+
+Calculate the sale price of an item after the discount is subtracted. Here is the algorithm:
+
+1. Get the original price of the item.
+```python
+original_price = float(input("Enter the item's original price: "))
+```
+
+2. Calculate 20 percent of the original price. This is the amount of the discount.
+```python
+discount = original_price * 0.2
+```
+
+3. Subtract the discount from the original price. This is the sale price.
+```python
+sale_price = original_price - discount
+```
+
+4. Display the sale price.
+```python
+print('The sale price is', sale_price)
+```
+
+**Program Output**
+```python
+Enter the item's original price: 100.00 # Enter
+The sale price is 80.0
+```
+
+### **Floating-Point and Integer Division**
+Python has two different division operators. The **/** operator performs floating-point division, and the **//** operator performs integer division.
+
+The difference between them is that the **/** operator gives the result as a floating-point value, and the **//** operator gives the result as a whole number.
+
+**The / operator**
+```python
+>>> 5 / 2 # Enter
+2.5
+>>>
+```
+
+**The // operator**
+```python
+>>> 5 // 2 # Enter
+2
+>>>
+```
+
+* When the result is positive, it is *truncated*, which means that its fractional part is thrown away.
+* When the result is negative, it is rounded *away from zero* to the nearest integer.
+```python
+>>> -5 // 2 # Enter
+-3
+>>>
+```
