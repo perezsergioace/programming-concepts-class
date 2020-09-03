@@ -674,3 +674,12 @@ The difference between them is that the **/** operator gives the result as a flo
 -3
 >>>
 ```
+
+### **Operator Precedence**
+You can write statements that use complex mathematical expressions involving several operators. Python follows the same order of operations that you learned in math class.
+
+First, operations that are enclosed in parentheses are performed first. Then, when two operators share an operand, the operator with the higher *precedence* is applied first. The precedence of the math operators, from highest to lowest, are:
+
+1. Exponentiation: **
+2. Multiplication, division, and remainder: * / // %
+3. Addition and subtraction: + -
