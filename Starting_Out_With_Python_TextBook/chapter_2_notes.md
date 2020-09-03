@@ -857,3 +857,51 @@ Here is an example that formats an even larger number:
 123,456,789.46
 >>>
 ```
+
+### **Specifying a Minimum Field Width**
+The format specifier can also include a minimum field width, which the minimum number of spaces that should be used to display the value. The following example prints a number in a field that is 12 spaces wide:
+```python
+>>> print('The number is', format(12345.6789, '12,.2f'))
+The number is 12,345.68
+>>>
+```
+
+### **Formatting a Floating-Point Number as a Percentage**
+Instead of using **f** as the type designator, you can use the **%** symbol to format a floating-point number as a percentage. The % symbol causes them number to be multiplied by 100 and displayed with a **%** sign following it. Here is an example:
+```python
+>>> print(format(0.5, '%'))
+50.000000%
+>>>
+```
+
+Here is an example that specifies 0 as the precision:
+```python
+>>> print(format(0.5, '.0%'))
+50%
+>>>
+```
+
+### **Formatting Integers**
+You can also use the **format** function to format integers. There are two different differences to keep in mind when writing a format specifier that will be used to format an integer:
+
+* You use **d** as the type designator.
+* You cannot specify precision.
+
+## **2.9 Named Constants**
+### **Concept:**
+A named constant is a name that represents a value that cannot be changed during the program's execution.
+
+A *magic number* is an unexplained value that appears in a program's code.
+
+Magic numbers can be problematic, for a number of reasons. First, as illustrated in our example, it can be difficult for someone reading the code to determine the purpose of the number. Second, if the magic number is used in multiple places in the program, it can take painstaking effort to change the number in each location, should the need arise. Third, you take the risk of making a typographical mistake each time you type the magic number in the program’s code. For example, suppose you intend to type 0.069, but you accidentally type .0069. This mistake will cause mathematical errors that can be difficult to find.
+
+These problems can be addressed by using named constants to represent magic numbers. A *named constant* is a name that represents a value that does not change during the program's execution. The following is an example of how we will declare named constants in our code:
+```python
+INTEREST_RATE = 0.069
+```
+
+Notice the named constant is written in all uppercase letters. This is standard practice in most programming languages because it makes named constants easily distinguishable from regular variables.
+
+Another advantage to using named constants is that widespread changes can easily be made to the program.
+
+Another advantage to using named constants is that they help to prevent the typographical errors that are common when using magic numbers.
