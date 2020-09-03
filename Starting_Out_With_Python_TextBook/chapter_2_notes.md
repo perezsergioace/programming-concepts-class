@@ -748,3 +748,58 @@ One Two Three
 
 Sometimes, you might not want the **print** function to print anything at the end of its output, not even a space. If that is the case, you can pass the argument **end=''** to the **print** function.
 
+### **Specifying an Item Separator**
+When multiple arguments are passed to the **print** function, they are automatically separated by a space when they are displayed on the screen.
+
+Here is an example, demonstrated in interactive mode:
+```python
+>>> print('One', 'Two', 'Three')
+One Two Three
+>>>
+```
+
+If you do not want a space printed between the items, you can pass the argument **spe=''** to the **print** function, as show here:
+```python
+>>> print('One', 'Two', 'Three', sep='')
+OneTwoThree
+>>>
+```
+
+You can also use this special argument to specify a character other than the space to separate multiple items. Here is an example:
+```python
+>>> print('One', 'Two', 'Three', sep='*')
+One*Two*Three
+>>>
+```
+
+Notice in this example, we passed the argument sep='*' to the **print** function. This specifies that the printed items should be separated with the * character.
+
+### **Escape Characters**
+An *escape character* is a special character that is preceded with a backslash(\), appearing inside a string literal.
+
+For example, **\n** is the newline escape character. When the **\n** escape character is printed, it isn't displayed on the screen. Instead it causes output to advance to the next line. For example, look at the following statement:
+```python
+print('One\nTwo\nThree')
+```
+
+When this statement executes, it displays
+```python
+One
+Two
+Three
+```
+
+Python recognizes several escape characters.
+
+### **Displaying Multiple Items with the + Operator**
+Earlier in this chapter, you saw that the + operator is used to add two numbers. When the + operator is used with two strings, however, it performs **string concatenation**. This means that is appends one string to another. For example, look at the following statement:
+```python
+print('This is ' + 'one string.')
+```
+
+This statement will print
+```python
+This is one string.
+```
+
+String concatenation can be useful for breaking up a string literal so a lengthy call to the **print** function can span multiple lines.
