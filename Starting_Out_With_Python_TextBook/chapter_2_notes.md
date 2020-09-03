@@ -803,3 +803,57 @@ This is one string.
 ```
 
 String concatenation can be useful for breaking up a string literal so a lengthy call to the **print** function can span multiple lines.
+
+### **Formatting Numbers**
+You might not always be happy with the way that numbers especially floating-point numbers, are displayed on the screen. When a floating-point number is displayed by the **print** function, it can appear with up to 12 significant digits.
+
+When you can call the built-in **format** function, you pass two arguments to the function: a numeric value and a format specifier. The *format specifier* is a string that contains special characters specifying how the numeric value should be formatted. Let's look at an example:
+```python
+format(12345.6789, '.2f')
+```
+
+The first argument, which is the floating-point number 12345.6789, is the number that we want to format. The second argument, which is the string '.2f' , is the format specifier. Here is the meaning of its contents:
+
+* The .2 specifies the precision. It indicates that we want to round the number to two decimal places.
+* The f specifies that the data type of the number we are formatting is a floating-point number.
+
+The **format** function returns a string containing the formatted number.
+```python
+>>> print(format(12345.6789, '.2f'))
+12345.68
+>>>
+```
+
+Notice the number is rounded to two decimal places. The following
+example shows the same number, rounded to one decimal place:
+
+```python
+>>> print(format(12345.6789, '.1f'))
+12345.7
+>>>
+```
+
+### **Formatting in Scientific Notation**
+If you prefer to display floating-point numbers in scientific notation, you can use letter **e** or the letter **E** instead of **f**. Here are some example:
+```python
+>>> print(format(12345.6789, 'e'))
+1.234568e+04
+>>> print(format(12345.6789, '.2e'))
+1.23e+04
+>>>
+```
+
+### **Inserting Comma Separators**
+If you want the number to be formatted with comma separators, you can insert a comma into the format specifier, as shown here:
+```python
+>>> print(format(12345.6789, ',.2f'))
+12,345.68
+>>>
+```
+
+Here is an example that formats an even larger number:
+```python
+>>> print(format(123456789.456, ',.2f'))
+123,456,789.46
+>>>
+```
