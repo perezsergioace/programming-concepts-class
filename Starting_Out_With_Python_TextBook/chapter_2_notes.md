@@ -727,3 +727,24 @@ total = (value1 + value2 +
         value3 + value4 +
         value5 + value6)
 ```
+
+## **2.8 More About Data Output**
+In this section, you will learn more details about the Python **print** function, and you'll see techniques for formatting output in specific ways.
+
+### **Suppressing the *print* Function's Ending Newline**
+The **print** function normally display a line of output.
+
+If you do not want the **print** function to start a new line of output when it finishes displaying its output, you can pass the special argument **end=' '** to the function, as show in the following code:
+```python
+print('One', end= ' ')
+print('Two', end= ' ')
+print('Three')
+```
+
+Here is the output of these statements:
+```python
+One Two Three
+```
+
+Sometimes, you might not want the **print** function to print anything at the end of its output, not even a space. If that is the case, you can pass the argument **end=''** to the **print** function.
+
