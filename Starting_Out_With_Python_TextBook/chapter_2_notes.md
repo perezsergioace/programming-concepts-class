@@ -683,3 +683,6 @@ First, operations that are enclosed in parentheses are performed first. Then, wh
 1. Exponentiation: **
 2. Multiplication, division, and remainder: * / // %
 3. Addition and subtraction: + -
+
+
+[Article on Order of Operations](https://www.mathsisfun.com/operation-order-pemdas.html)
