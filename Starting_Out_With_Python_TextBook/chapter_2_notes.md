@@ -686,3 +686,44 @@ First, operations that are enclosed in parentheses are performed first. Then, wh
 
 
 [Article on Order of Operations](https://www.mathsisfun.com/operation-order-pemdas.html)
+
+### **Grouping with Parentheses**
+Parts of a mathematical expression may be grouped with parentheses to force some operations to be performed before others
+
+### **The Exponent Operator**
+Python also provides an exponent operator. Two asterisks written together(**) is the exponent operator, and its purpose is to raise a number to a power. 
+
+### **The Remainder Operator**
+In Python, the % symbol is the remainder operator. (This is also known as the *modulus operator*) The remainder operator performs division, but instead of returning the quotient, it returns the remainder.
+
+### **Converting Math Formulas to Programming Statements**
+When converting some algebraic expressions to programming expressions, you may have to insert parentheses that do not appear in the algebraic expression.
+
+### **Mixed-Type Expressions and Data Type Conversion**
+When you perform a math operation on two operands, the data type of the result will depend on the data type of the operands. Python follows these rules when evaluating mathematical expressions:
+
+* When an operation is performed on two **int** values, the result will be an **int**
+* When an operation is performed on two **float** values, the result will be a **float**
+* When an operation is performed on an **int** and a **float**, the **int** value will be temporarily converted to a **float** and the result of the operation will be a **float**.(An expression that uses operands of different data types is called a *mixed-type expression*.)
+
+The **int** to **float** conversion that takes place in the previous statement happens implicitly. If you need to explicitly perform a conversion, you can use either the **int()** or **float()** functions.
+
+### **Breaking Long Statements into Multiple Lines**
+Most programming statements are written on one line. If a programming statement is too long, however, you will not be able to view all of it in your editor window without scrolling horizontally. In addition, if you print your program code on paper and one of the statements is too long to fit on one line, it will wrap around to the next line and make the code difficult to read.
+
+Python allows you to break a statement into multiple lines by using the *line continuation character*, which is a backslash(\). You simple type the backslash character at the point you want to break the statement, then press the Enter key.
+
+For example, here is a statement that performs a mathematical calculation and has been broken up to fit on two lines:
+```python
+result = var1 * 2 + var2 * 3 + \
+         var3 * 4 + var4 * 5
+```
+
+Python also allows you to break any part of a statement that is enclosed in parentheses into multiple lines without using the line continuation character.
+
+The following code shows an example of this:
+```python
+total = (value1 + value2 +
+        value3 + value4 +
+        value5 + value6)
+```
