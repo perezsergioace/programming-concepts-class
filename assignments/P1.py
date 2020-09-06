@@ -1,3 +1,5 @@
+# 1
+
 SALES_TAX = .07
 SALE_PERCENTAGE = .25
 
@@ -29,3 +31,56 @@ print('Total cost is $', format(total_cost, '.2f'), sep='')
 
 # total_cost = (total_before_tax * SALES_TAX) + total_before_tax
 # print('Total cost is', format(total_cost, '.2f'))
+
+# 2
+
+print('\"Isn\'t,\" they said.')
+print('\'my dog loves to play\'')
+print('\'\"Come over for dinner,\" they said\'')
+
+# 3
+
+print(r'C:\programfiles\user\yourname')
+print(r'C:\programfiles\user\sergio')
+
+# 4
+
+print("""\
+    Pancakes: How I love them
+        -with maple sytrup      (needs to be warm)
+        -with chocolate chips   (Hershey's is the best)
+""")
+
+# 5
+
+print('\'I went to the store to buy pretzels\' \'while I was at the store I also bought chips and salsa\'')
+
+# 6
+
+word = 'programming'
+print(word[1])
+print(word[5])
+print(word[8])
+
+# 7
+
+word = 'programming'
+print(word[-1])
+print(word[-5])
+print(word[-8])
+
+# 8
+
+word = 'programming'
+print(word[:2])
+print(word[4:])
+print(word[-2])
+print(word[-2:])
+
+# 9
+
+print(len('formatting'))
+print(len('syntax'))
+print(len('exponential'))
+
+# 10
