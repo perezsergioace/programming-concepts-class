@@ -73,11 +73,13 @@ first_name = input('Enter your first name: ')
 last_name = input('Enter your last name: ')
 phone_number = input('Enter phone number including state area code: ')[3:]
 
-print(f"""\
-    Hello Applicant!:  
-        -You entered: {first_name} as your firt name
-        -You entered: {last_name} as your last name
-        -This is your phone number without the state area code numbers: {phone_number}
+# print(f"""\
+#     Hello Applicant!:  
+#         -You entered: {first_name} as your first name
+#         -You entered: {last_name} as your last name
+#         -This is your phone number without the state area code numbers: {phone_number}
 
-    Thank you {first_name} for applying! If you have any questions please feel free to call us at {COMPANY_NUMBER}.
-""")
+#     Thank you {first_name} for applying! If you have any questions please feel free to call us at {COMPANY_NUMBER}.
+# """)
+
+print('Hello Applicant\nYou entered: ', first_name, 'as your first name\nYou entered: ', last_name, 'as your last name\nThis is your phone number without the state area code numbers:', phone_number, '\nIf you have any questions please feel free to call us at', COMPANY_NUMBER)
