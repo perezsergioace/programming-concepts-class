@@ -29,7 +29,7 @@ print(r'C:\programfiles\user\sergio')
 
 print("""\
     Pancakes: How I love them
-        -with maple sytrup      (needs to be warm)
+        -with maple syrup      (needs to be warm)
         -with chocolate chips   (Hershey's is the best)
 """)
 
@@ -56,7 +56,7 @@ print(word[-8])
 word = 'programming'
 print(word[:2])
 print(word[4:])
-print(word[-2])
+print(word[-2:-1])
 print(word[-2:])
 
 # 9
@@ -66,3 +66,18 @@ print(len('syntax'))
 print(len('exponential'))
 
 # 10
+
+COMPANY_NUMBER = 1230987654
+
+first_name = input('Enter your first name: ')
+last_name = input('Enter your last name: ')
+phone_number = input('Enter phone number including state area code: ')[3:]
+
+print(f"""\
+    Hello Applicant!:  
+        -You entered: {first_name} as your firt name
+        -You entered: {last_name} as your last name
+        -This is your phone number without the state area code numbers: {phone_number}
+
+    Thank you {first_name} for applying! If you have any questions please feel free to call us at {COMPANY_NUMBER}.
+""")
