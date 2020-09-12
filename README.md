@@ -7,7 +7,7 @@ a complete computer program using functions, loops, conditional statements, and 
 output statements. This will be accomplished using a combination of tools, including flowcharts,
 pseudocode, and Python.
 
-# Course Onjectives
+# Course Objectives
 
 At the completion of this course, students will be able to:
 
