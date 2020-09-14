@@ -19,4 +19,3 @@ At the completion of this course, students will be able to:
 * Write programs that use internal documentation and standard white space conventions to communicate program design
 * Create flowcharts and write syntactically correct pseudocode to solve small programming problems using structured programming techniques
 * Use a variety of desk-checking or debugging techniques on programs written with structured programming techniques
-
