@@ -5,19 +5,28 @@
 # 2.	The distance the car will travel in 10 hours
 # 3.	The distance the car will travel in 15 hours.  
 
-# Initiating variables
-car_speed = 82
-six_hours = 6
-ten_hours = 10
-fifteen_hours = 15
+# Initiating constant variable for the speed of the car
+CAR_SPEED = 82
 
-# Initiating distance variables for each hours
+# Initiating distance variables for each hour
 six_hour_distance = 0.0
 ten_hour_distance = 0.0
 fifteen_hour_distance = 0.0
 
 # Calculating the distance for 6 hours
+six_hour_distance = float(CAR_SPEED) * 6
 
 # Calculating the distance for 10 hours
+ten_hour_distance = float(CAR_SPEED) * 10
 
 # Calculating the distance for 15 hours
+fifteen_hour_distance = float(CAR_SPEED) * 15
+
+# Displaying the distance the car will travel in 6 hours
+print('The distance the car will travel in 6 hours is:', format(six_hour_distance, ',.2f'), 'miles')
+
+# Displaying the distance the car will travel in 10 hours
+print('The distance the car will travel in 10 hours is:', format(ten_hour_distance, ',.2f'), 'miles')
+
+# Displaying the distance the car will travel in 15 hours
+print('The distance the car will travel in 15 hours is:', format(fifteen_hour_distance, ',.2f'), 'miles')
