@@ -17,13 +17,39 @@
 STOCKBROKER_COMMISION_PERCENTAGE_ONE = 0.025
 STOCKBROKER_COMMISION_PERCENTAGE_TWO = 0.03
 
-# Initializing variables
+# Initializing variables when the stocks were initially purchased
 purchased_shares = 2365
 stock_price = 62.50
 purchased_stock_amount = 0.0
 stockbroker_commision_amount_one = 0.0
 
+# Initializing variables when the stocks were sold
 sold_shares = 2000
 sold_stock_price = 78.20
 sold_stock_amount = 0.0
 stockbroker_commision_amount_two = 0.0
+
+grand_total = 0.0
+
+# When buying the stock initially
+# Calculating the total amount of the purchase of the shares
+purchased_stock_amount = purchased_shares * stock_price
+
+# Calculating the total commision amount when initially buying the stock
+stockbroker_commision_amount_one = purchased_stock_amount * STOCKBROKER_COMMISION_PERCENTAGE_ONE
+
+# After Selling the stock
+# Calculating the total amount of the sold stock
+sold_stock_amount = sold_shares * sold_stock_price
+
+# Calculating the total commision amount when stock was sold
+stockbroker_commision_amount_two = sold_stock_amount * STOCKBROKER_COMMISION_PERCENTAGE_TWO
+
+grand_total = (sold_stock_amount + stockbroker_commision_amount_two) - (purchased_stock_amount - stockbroker_commision_amount_one)
+
+# Displaying messages for stock amounts, commission amounts, and total profit
+print('The amount paid for the stock is: $', format(purchased_stock_amount, ',.2f'), sep='')
+print('The amount of the commission paid to stockbroker when stock was bought is: $', format(stockbroker_commision_amount_one, ',.2f'), sep='')
+print('The amount the stock was sold for is: $', format(sold_stock_amount, ',.2f'), sep='')
+print('The amount of the commission paid to stockbroker when stock was sold is: $', format(stockbroker_commision_amount_two, ',.2f'), sep='')
+print('This was a profit! The amount of money profited is: $', format(grand_total, ',.2f'), sep='')
