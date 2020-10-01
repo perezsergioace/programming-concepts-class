@@ -83,34 +83,16 @@ print('Reboot the computer and try to connect.')
 if input('Did that fix the problem? ') == 'yes':
     print('done')
 else:
-    print('Make sure the cables between the router & modem are plugged in firmly.')
+    print('Reboot the router and try to connect.')
     if input('Did that fix the problem? ') == 'yes':
         print('done')
     else:
-        print('Move the router to a new location and try to connect.')
+        print('Make sure the cables between the router & modem are plugged in firmly.')
         if input('Did that fix the problem? ') == 'yes':
             print('done')
         else:
-            print('Get a new router.')
-
-# print('Reboot the computer and try to connect.')
-# print('Did that fix the problem?')
-# if answer == 'yes':
-#     print('done')
-# else:
-#     print('Reboot the router and try to connect.')
-#     print('Did that fix the problem?')
-#     if answer == 'yes':
-#         print('done')
-#     else:
-#         print('Make sure the cables between the router & modem are plugged in firmly.')
-#         print('Did that fix the problem?')
-#         if answer == 'yes':
-#             print('done')
-#         else:
-#             print('Move the router to a new location and try to connect.')
-#             print('Did that fix the problem?')
-#             if answer == 'yes':
-#                 print('done')
-#             else:
-#                 print('Get a new router')
+            print('Move the router to a new location and try to connect.')
+            if input('Did that fix the problem? ') == 'yes':
+                print('done')
+            else:
+                print('Get a new router.')
