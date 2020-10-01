@@ -47,6 +47,24 @@ else:
 # If the numbers total more than 100 tell them their numbers are greater than 100, 
 # if they total less than 100 tell them their numbers total less than 100.  
 
+# creating variables
+first_number = 0.0
+second_number = 0.0
+
+# prompting the user to enter two numbers
+first_number = int(input('Enter first number: '))
+second_number = int(input('Enter second number: '))
+
+# creating the if statment to check whether the sum of the two numbers is greater than 100
+# calculating the total of the two numbers
+# checking if the total is greater than 100
+if (first_number + second_number) > 100:
+    print('The numbers you entered total more than 100!')
+# checking if the total is less than 100
+else:
+    if (first_number + second_number) < 100:
+        print('The numbers you entered total less than 100!')
+
 # 4.) Draw a flowchart for the each of the decision structures in Questions 1, 2, 3
 # *you can include a snapshot or use a program to draw the flowcharts
 
@@ -60,3 +78,39 @@ else:
 # o	Else statements
 # o	Print statements
 # o	Response statements 
+
+print('Reboot the computer and try to connect.')
+if input('Did that fix the problem? ') == 'yes':
+    print('done')
+else:
+    print('Make sure the cables between the router & modem are plugged in firmly.')
+    if input('Did that fix the problem? ') == 'yes':
+        print('done')
+    else:
+        print('Move the router to a new location and try to connect.')
+        if input('Did that fix the problem? ') == 'yes':
+            print('done')
+        else:
+            print('Get a new router.')
+
+# print('Reboot the computer and try to connect.')
+# print('Did that fix the problem?')
+# if answer == 'yes':
+#     print('done')
+# else:
+#     print('Reboot the router and try to connect.')
+#     print('Did that fix the problem?')
+#     if answer == 'yes':
+#         print('done')
+#     else:
+#         print('Make sure the cables between the router & modem are plugged in firmly.')
+#         print('Did that fix the problem?')
+#         if answer == 'yes':
+#             print('done')
+#         else:
+#             print('Move the router to a new location and try to connect.')
+#             print('Did that fix the problem?')
+#             if answer == 'yes':
+#                 print('done')
+#             else:
+#                 print('Get a new router')
