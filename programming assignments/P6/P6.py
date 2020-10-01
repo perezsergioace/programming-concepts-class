@@ -50,20 +50,20 @@ else:
 # creating variables
 first_number = 0.0
 second_number = 0.0
+total = 0.0
 
 # prompting the user to enter two numbers
 first_number = int(input('Enter first number: '))
 second_number = int(input('Enter second number: '))
+total = first_number + second_number
 
 # creating the if statment to check whether the sum of the two numbers is greater than 100
 # calculating the total of the two numbers
 # checking if the total is greater than 100
-if (first_number + second_number) > 100:
+if total > 100:
     print('The numbers you entered total more than 100!')
-# checking if the total is less than 100
 else:
-    if (first_number + second_number) < 100:
-        print('The numbers you entered total less than 100!')
+    print('The numbers you entered total less than 100!')
 
 # 4.) Draw a flowchart for the each of the decision structures in Questions 1, 2, 3
 # *you can include a snapshot or use a program to draw the flowcharts
