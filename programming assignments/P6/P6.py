@@ -22,8 +22,26 @@ else:
 # Put a statement in that if the person chooses yellow the program will return “Yellow is also my favorite color” 
 # and if the person puts red it will say “Red is the color of my favorite roses.” 
 # For all other colors the response should be “That is an interesting color choice.”
-# Test the program with yellow, red and two other colors.  
+# Test the program with yellow, red and two other colors.
 
+# creating variables
+favorite_color = 0.0
+y_color = 'yellow'
+r_color = 'red'
+
+# asking user to input their favorite color
+favorite_color = input('Please enter your favorite color: ')
+
+# creating the if/else/elif statement
+# checking whether the string inputed is equal to the stinr 'yellow'
+if favorite_color == y_color:
+    print('Yellow is also my favorite color!')
+# checking whether the string inputed is equal to the string 'red'
+elif favorite_color == r_color:
+    print('Red is the color of my favorite roses!')
+# otherwise any other color inputed will get another message
+else:
+    print('That is an interesting color choice.')
 
 # 3.) Write a program that asks a user for 2 numbers. 
 # If the numbers total more than 100 tell them their numbers are greater than 100, 
