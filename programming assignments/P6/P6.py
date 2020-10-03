@@ -32,16 +32,24 @@ r_color = 'red'
 # asking user to input their favorite color
 favorite_color = input('Please enter your favorite color: ')
 
-# creating the if/else/elif statement
-# checking whether the string inputed is equal to the stinr 'yellow'
-if favorite_color == y_color:
-    print('Yellow is also my favorite color!')
-# checking whether the string inputed is equal to the string 'red'
-elif favorite_color == r_color:
-    print('Red is the color of my favorite roses!')
-# otherwise any other color inputed will get another message
+if favorite_color == y_color or favorite_color == r_color:
+    if favorite_color == y_color:
+        print('Yellow is also my favorite color!')
+    else:
+        print('Red is the color of my favorite roses!')
 else:
     print('That is an interesting color choice.')
+
+# # creating the if/else/elif statement
+# # checking whether the string inputed is equal to the stinr 'yellow'
+# if favorite_color == y_color:
+#     print('Yellow is also my favorite color!')
+# # checking whether the string inputed is equal to the string 'red'
+# elif favorite_color == r_color:
+#     print('Red is the color of my favorite roses!')
+# # otherwise any other color inputed will get another message
+# else:
+#     print('That is an interesting color choice.')
 
 # 3.) Write a program that asks a user for 2 numbers. 
 # If the numbers total more than 100 tell them their numbers are greater than 100, 
