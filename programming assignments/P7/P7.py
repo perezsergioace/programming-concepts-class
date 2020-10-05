@@ -19,3 +19,11 @@ elif month <= 6 and month > 3:
     print('This month is in the second quarter.')
 else:
     print('This month is in the first quarter.')
+
+# 2.	Write a program that will ask a user to enter an integer.
+# The program should display “Positive” if the number is greater than 0, 
+# “Negative” if the number is less than 0, 
+# and “Zero” if the number is equal to 0. 
+# The program should then determine if the number is “Even” or “Odd”.  
+# •	You should end up with an if-elif-else, & and if- else statement
+# •	Use % 2 == 0 as the equation to figure out even or odd
