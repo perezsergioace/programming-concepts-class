@@ -20,7 +20,7 @@ elif month <= 6 and month > 3:
 else:
     print('This month is in the first quarter.')
 
-# 2.	Write a program that will ask a user to enter an integer.
+# 2. Write a program that will ask a user to enter an integer.
 # The program should display “Positive” if the number is greater than 0, 
 # “Negative” if the number is less than 0, 
 # and “Zero” if the number is equal to 0. 
