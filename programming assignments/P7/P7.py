@@ -11,16 +11,6 @@ month = 0.0
 # initialzing the input for the user to enter a number for the month
 month = int(input('Enter a month as a number between 1-12: '))
 
-# creating the if-elif-else statement
-# if month <= 3:
-#     print('This month is in the first quarter.')
-# elif month > 3 and month <= 6:
-#     print('This month is in the second quarter.')
-# elif month > 6 and month <= 9:
-#     print('This month is in the third quarter.')
-# else:
-#     print('This month is in hte fourt quarter.')
-
 if month > 9:
     print('This month is in the fourth quarter.')
 elif month <= 9 and month > 6:
