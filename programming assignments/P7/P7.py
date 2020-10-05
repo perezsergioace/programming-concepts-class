@@ -48,3 +48,12 @@ if number % 2 == 0:
     print('Even')
 else:
     print('Odd')
+
+# 3. Rectangles:  Area = length x width
+# Write a program that asks for the length and width of 2 rectangles. 
+# The program should determine and tell the user which rectangle has the greater area or if they are the same. 
+# •	For this go back to chapter 2; declare 6 variables; 
+# •	Get your input;
+# •	Print statement for the Area of 1 (format precision 2) Ex: print(‘Area of triangle 1 is: ’, format(area1, ‘.2f’))
+# •	Print statement for the Area of 2 (format precision 2)
+# •	If-elif-else statements with their own print statements
