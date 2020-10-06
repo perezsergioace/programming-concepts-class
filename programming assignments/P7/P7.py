@@ -101,6 +101,23 @@ else:
 # •	The number of hot dogs that will be left over
 # •	The number of hot dog bun that will be left over 
 
+# creating variables
+number_of_people_attending = 0.0
+number_of_hotdogs_per_person = 0.0
+minimum_leftover = 0.0
+minimum_hot_dog_packages_required = 0.0
+minimum_hot_dog_packages_required = 0.0
+leftover_hot_dogs = 0.0
+leftover_hot_dog_buns = 0.0
+
+# constant variables
+HOT_DOGS_PER_PACKAGE = 10.0
+HOT_DOG_BUNS_PER_PACKAGE = 8.0
+
+# get statements
+number_of_people_attending = float(input('Please enter the number of people attending: '))
+number_of_hotdogs_per_person = float(input('Please enter the number of hot dogs each person will be given: '))
+
 # This is not a decision structure to start off.  
 # Starts as a program as in Chapter 2, that contains decision structures.  
 # For this to be correct you should have in this order! : 
