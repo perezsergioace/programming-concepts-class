@@ -104,9 +104,9 @@ else:
 # creating variables
 number_of_people_attending = 0.0
 number_of_hotdogs_per_person = 0.0
-minimum_leftover = 0.0
 minimum_hot_dog_packages_required = 0.0
-minimum_hot_dog_packages_required = 0.0
+minimum_hot_dog_buns_required = 0.0
+# minimum_leftover_possible = 0.0
 leftover_hot_dogs = 0.0
 leftover_hot_dog_buns = 0.0
 
@@ -117,6 +117,22 @@ HOT_DOG_BUNS_PER_PACKAGE = 8.0
 # get statements
 number_of_people_attending = float(input('Please enter the number of people attending: '))
 number_of_hotdogs_per_person = float(input('Please enter the number of hot dogs each person will be given: '))
+
+# calculating the amount of hot dog packages needed for the amount of people attending and the amount of hotdog each person will get
+minimum_hot_dog_packages_required = (number_of_people_attending * number_of_hotdogs_per_person) / HOT_DOGS_PER_PACKAGE
+print(minimum_hot_dog_packages_required)
+
+# calculating the amount of hot dog pun packages needed for the amount of people attending and the amount of hotdog each person will get
+minimum_hot_dog_buns_required = (number_of_people_attending * number_of_hotdogs_per_person) / HOT_DOG_BUNS_PER_PACKAGE
+print(minimum_hot_dog_buns_required)
+
+# calculating the amount of hot dog packages leftover
+leftover_hot_dogs = (number_of_people_attending * number_of_hotdogs_per_person) % HOT_DOGS_PER_PACKAGE
+print(leftover_hot_dogs)
+
+# calculating the amount of hot dog bun packages leftover
+leftover_hot_dog_buns = (number_of_people_attending * number_of_hotdogs_per_person) % HOT_DOG_BUNS_PER_PACKAGE
+print(leftover_hot_dog_buns)
 
 # This is not a decision structure to start off.  
 # Starts as a program as in Chapter 2, that contains decision structures.  
@@ -143,3 +159,27 @@ number_of_hotdogs_per_person = float(input('Please enter the number of hot dogs 
 # •	Display min packages of buns    (sentence with variable that prints expression)
 # •	Display number of hot dogs left over    (sentence with variable that prints expression)
 # •	Display number of buns left over        (sentence with variable that prints expression)
+
+# •	Display min packages of hot dogs  (sentence with variable that prints expression) 
+if minimum_hot_dog_packages_required > 1:
+    print('The minimum packages of hot dogs needed is', minimum_hot_dog_packages_required)
+else:
+    print('This number of people attending is large enough to require just one package of hot dogs.')
+
+# •	Display min packages of buns    (sentence with variable that prints expression)
+if minimum_hot_dog_buns_required > 1:
+    print('The minimum packages of hot dog buns needed is', minimum_hot_dog_buns_required)
+else:
+    print('This number of people attending is large enough to require just one package of hot dog buns.')
+
+# •	Display number of hot dogs left over    (sentence with variable that prints expression)
+if leftover_hot_dogs > 0:
+    print('The number of hot dogs left over is', leftover_hot_dogs)
+else:
+    print('No left over over hot dogs.')
+
+# •	Display number of buns left over        (sentence with variable that prints expression)
+if leftover_hot_dog_buns > 0:
+    print('The number of buns left over is', leftover_hot_dog_buns)
+else:
+    print('No left over hot dog buns.')
