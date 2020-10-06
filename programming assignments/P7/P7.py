@@ -87,3 +87,42 @@ elif rectangle_two_area > rectangle_one_area:
     print('Rectangle two has the greater area.')
 else:
     print('Rectangle one and Rectangle two have the same area.')
+
+# 4. Assume hot dogs come in packages of 10
+# Hot dog buns come in packages of 8
+# Write a program that calculates the number of packages of hot dogs and the number of packages of hot dog buns needed for a cookout, 
+# with the minimal amount of leftovers possible. 
+# The program should ask the user for the number of people attending.
+# Ask the number of hot dogs each person will be given.
+
+# The program should display the following details: 
+# •	The minimum number of packages of hot dogs required
+# •	The minimum number of packages of hot dog buns
+# •	The number of hot dogs that will be left over
+# •	The number of hot dog bun that will be left over 
+
+# This is not a decision structure to start off.  
+# Starts as a program as in Chapter 2, that contains decision structures.  
+# For this to be correct you should have in this order! : 
+# •	7 variables
+# •	2 constants
+# •	2 get statements
+# •	2 calculate statements
+# •	#determine if the number of people attending is large enough to require more than one package of hotdogs
+# •	If statement for minimum dogs > 0; you will use the modulus for calculation. 
+# •	If there is a remainder from above statement another
+# •	 if statement that uses != and +=
+# •	Else statement 
+# •	#determine the number of left over hot dogs, if any
+# •	Calculation statement
+# •	#determine # of hot dog buns needed
+# •	Calculation statement
+# •	#determine if the number of people coming are large enough to require more than one package of hot dog buns
+# •	If statement  modulus
+# •	If statement  != 0   and += 
+# •	Else statement 
+# •	Calculate the number of buns leftover if any 
+# •	Display min packages of hot dogs  (sentence with variable that prints expression) 
+# •	Display min packages of buns    (sentence with variable that prints expression)
+# •	Display number of hot dogs left over    (sentence with variable that prints expression)
+# •	Display number of buns left over        (sentence with variable that prints expression)
