@@ -82,35 +82,43 @@ mid_term_percentage = 0.0
 final = 0.0
 total_percentage = 0.0
 
-# getting user's input
-reviews_quizzes_classwork = float(input('Input points from reviews, quizzes, classwork(out of 300): '))
-programming_assignments = float(input('Input points from programming assingments(out of 400): '))
-mid_term = float(input('Input points from mid term(out of 150): '))
-final = int(input('Input point from final(out of 150): '))
 
-#calculations
-reviews_quizzes_classwork_percentage = ((reviews_quizzes_classwork / REVIEWS_QUIZZES_CLASSWORK_POSSIBLE_POINTS) * .30) 
-programming_assignments_percentage = ((programming_assignments / PROGRAMMING_ASSIGNMENTS_POSSBILE_POINTS) * .40)
-mid_term_percentage = ((mid_term / MID_TERM_POSSIBLE_POINTS) * .15)
-final_percentage = ((final / FINAL_POSSIBLE_POINTS) * .15)
+keep_going_grade = 'y'
 
-total_percentage = reviews_quizzes_classwork_percentage + programming_assignments_percentage + mid_term_percentage + final_percentage
+while keep_going_grade == 'y':
+    # getting user's input
+    reviews_quizzes_classwork = float(input('Input points from reviews, quizzes, classwork(out of 300): '))
+    programming_assignments = float(input('Input points from programming assingments(out of 400): '))
+    mid_term = float(input('Input points from mid term(out of 150): '))
+    final = int(input('Input point from final(out of 150): '))
 
-print('Category\t\t\t\t Percentage')
-print('----------------------------------------------------')
-print('Reviews/Quizzes/Classwork\t\t', format(reviews_quizzes_classwork_percentage, '.0%'))
-print('Programming Assignments\t\t\t', format(programming_assignments_percentage, '.0%'))
-print('Mid Term\t\t\t\t', format(mid_term_percentage, '.0%'))
-print('Final\t\t\t\t\t', format(final_percentage, '.0%'))
-print('Total\t\t\t\t\t', format(total_percentage, '.0%'))
+    # calculations
+    reviews_quizzes_classwork_percentage = ((reviews_quizzes_classwork / REVIEWS_QUIZZES_CLASSWORK_POSSIBLE_POINTS) * .30) 
+    programming_assignments_percentage = ((programming_assignments / PROGRAMMING_ASSIGNMENTS_POSSBILE_POINTS) * .40)
+    mid_term_percentage = ((mid_term / MID_TERM_POSSIBLE_POINTS) * .15)
+    final_percentage = ((final / FINAL_POSSIBLE_POINTS) * .15)
+    total_percentage = reviews_quizzes_classwork_percentage + programming_assignments_percentage + mid_term_percentage + final_percentage
 
-if (total_percentage * 100) >= 90:
-    print('Your grade is a A.')
-elif (total_percentage * 100) >= 80:
-    print('Your grade is a B.')
-elif (total_percentage * 100) >= 70:
-    print('Your grade is a C.')
-elif (total_percentage * 100) >= 60:
-    print('Your grade is a D.')
-else:
-    print('Your grade is a F.')
+    # displaying to the user their grades in a tabbed table
+    print('Category\t\t\t\t Percentage')
+    print('----------------------------------------------------')
+    print('Reviews/Quizzes/Classwork\t\t', format(reviews_quizzes_classwork_percentage, '.0%'))
+    print('Programming Assignments\t\t\t', format(programming_assignments_percentage, '.0%'))
+    print('Mid Term\t\t\t\t', format(mid_term_percentage, '.0%'))
+    print('Final\t\t\t\t\t', format(final_percentage, '.0%'))
+    print('Total\t\t\t\t\t', format(total_percentage, '.0%'))
+
+    # creating the conditional statement to determine which grade the user received
+    if (total_percentage * 100) >= 90:
+        print('Your grade is a A.')
+    elif (total_percentage * 100) >= 80:
+        print('Your grade is a B.')
+    elif (total_percentage * 100) >= 70:
+        print('Your grade is a C.')
+    elif (total_percentage * 100) >= 60:
+        print('Your grade is a D.')
+    else:
+        print('Your grade is a F.')
+
+    # asking the user to input y if they want to calculate their percentage/letter again
+    keep_going_grade = input('Do you want to calculate your grade again(Enter y for yes): ')
